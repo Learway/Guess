@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ligue des Champions - Devine le Club</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+      background: #f3f4f6;
+      padding: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+    .input {
+      padding: 0.5rem;
+      width: 100%;
+      margin-bottom: 1rem;
+      box-sizing: border-box;
+    }
+    .button {
+      padding: 0.5rem;
+      width: 100%;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+    .button.red {
+      background: #ef4444;
+    }
+    .status {
+      font-weight: bold;
+      margin: 0.5rem 0;
+    }
+    .year {
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 1rem 0;
+    }
+    #club-img {
+  display: none;
+  width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+  
+.switch-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: #e5e7eb;
+  color: #111827;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.switch-button:hover {
+  background: #d1d5db;
+}
+
+</style>
+</head>
+<body>
+  <a href="index.html" class="switch-button">Devine le Joueur</a>
+  <div class="card">
+    <h1>Ligue des Champions</h1>
+    <p>Streak: <span id="streak">0</span></p>
+    <p>Erreurs: <span id="errors">0</span></p>
+    <div class="year" id="year">2023</div>
+    <img id="club-img" src="" alt="Logo du club" />
+    <p id="status" class="status"></p>
+    <input id="guess-input" class="input" type="text" placeholder="Nom du club" />
+    <button id="action-button" class="button">Valider</button>
+  </div>
+
+  <script>
+    const champions = [
+      { year: 2024, winner: "Real Madrid", img: "clubs/2024.png", aliases: ["real", "real madrid"] },
+      { year: 2023, winner: "Manchester City", img: "clubs/2023.png", aliases: ["city", "manchester city", "man city"] },
+      { year: 2022, winner: "Real Madrid", img: "clubs/2022.png", aliases: ["real", "real madrid"] },
+      { year: 2021, winner: "Chelsea", img: "clubs/2021.png", aliases: ["chelsea"] },
+      { year: 2020, winner: "Bayern Munich", img: "clubs/2020.png", aliases: ["bayern", "bayern munich"] },
+      { year: 2019, winner: "Liverpool", img: "clubs/2019.png", aliases: ["liverpool"] },
+      { year: 2018, winner: "Real Madrid", img: "clubs/2018.png", aliases: ["real", "real madrid"] },
+      { year: 2017, winner: "Real Madrid", img: "clubs/2017.png", aliases: ["real", "real madrid"] },
+      { year: 2016, winner: "Real Madrid", img: "clubs/2016.png", aliases: ["real", "real madrid"] },
+      { year: 2015, winner: "Barcelona", img: "clubs/2015.png", aliases: ["barca", "fc barcelona", "barcelone", "fc barcelone"] },
+      { year: 2014, winner: "Real Madrid", img: "clubs/2014.png", aliases: ["real", "real madrid"] },
+      { year: 2013, winner: "Bayern Munich", img: "clubs/2013.png", aliases: ["bayern", "bayern munich"] },
+      { year: 2012, winner: "Chelsea", img: "clubs/2012.png", aliases: ["chelsea"] },
+      { year: 2011, winner: "Barcelona", img: "clubs/2011.png", aliases: ["barca", "fc barcelona", "barcelone", "fc barcelone"] },
+      { year: 2010, winner: "Inter Milan", img: "clubs/2010.png", aliases: ["inter", "inter milan"] },
+      { year: 2009, winner: "Barcelona", img: "clubs/2009.png", aliases: ["barca", "fc barcelona", "barcelone", "fc barcelone"] },
+      { year: 2008, winner: "Manchester United", img: "clubs/2008.png", aliases: ["united", "manchester united", "man united"] },
+      { year: 2007, winner: "AC Milan", img: "clubs/2007.png", aliases: ["milan ac"] },
+      { year: 2006, winner: "Barcelona", img: "clubs/2006.png", aliases: ["barca", "fc barcelona", "barcelone", "fc barcelone"] },
+    ];
+
+    let current;
+    let streak = 0;
+    let errors = 0;
+    let status = "playing";
+    let remaining = [...champions];
+
+    const yearDiv = document.getElementById("year");
+    const input = document.getElementById("guess-input");
+    const button = document.getElementById("action-button");
+    const statusText = document.getElementById("status");
+    const streakText = document.getElementById("streak");
+    const errorsText = document.getElementById("errors");
+    const clubImg = document.getElementById("club-img");
+
+    function normalize(str) {
+      return str.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").trim();
+    }
+
+    function pickYear() {
+      if (remaining.length === 0) remaining = [...champions];
+      const index = Math.floor(Math.random() * remaining.length);
+      current = remaining[index];
+      remaining.splice(index, 1);
+      yearDiv.textContent = current.year;
+      input.value = "";
+      errors = 0;
+      errorsText.textContent = errors;
+      status = "playing";
+      statusText.textContent = "";
+      button.textContent = "Valider";
+      button.classList.remove("red");
+      clubImg.style.display = "none";
+      clubImg.src = "";
+    }
+
+    function checkGuess() {
+      if (status !== "playing") {
+        if (status === "win") pickYear();
+        else if (status === "lose") {
+          streak = 0;
+          streakText.textContent = streak;
+          pickYear();
+        }
+        return;
+      }
+
+      const guess = normalize(input.value);
+      const aliases = current.aliases.map(normalize);
+
+      if (aliases.includes(guess)) {
+        statusText.textContent = current.winner;
+        statusText.style.color = "green";
+        streak++;
+        streakText.textContent = streak;
+        status = "win";
+        button.textContent = "Suivant";
+        clubImg.src = current.img;
+        clubImg.style.display = "block";
+      } else {
+        errors++;
+        errorsText.textContent = errors;
+        if (errors >= 3) {
+          statusText.textContent = `Perdu ! C'était ${current.winner}`;
+          statusText.style.color = "red";
+          status = "lose";
+          button.textContent = "Recommencer";
+          button.classList.add("red");
+          clubImg.src = current.img;
+          clubImg.style.display = "block";
+        }
+      }
+    }
+
+    button.addEventListener("click", checkGuess);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") checkGuess();
+    });
+
+    pickYear();
+  </script>
+</body>
+</html>
