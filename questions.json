@@ -1,3505 +1,1303 @@
 {
   "facile": [
     {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
+      "clue": "Quel club a remporté la Coupe du Monde des clubs en 2023 ?",
       "answers": [
-        "messi",
-        "lionel messi"
+        "manchester city",
+        "city"
       ]
     },
     {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
+      "clue": "Quel joueur a marqué un triplé en finale de la Coupe du Monde 2022 ?",
       "answers": [
-        "france"
+        "kylian mbappé",
+        "mbappé"
       ]
     },
     {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
+      "clue": "Combien de Ligue des Champions a gagné le Real Madrid ?",
       "answers": [
         "15",
         "quinze"
       ]
     },
     {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
+      "clue": "Quel club italien joue au stade San Siro ?",
       "answers": [
-        "mbappe",
-        "kylian mbappe"
+        "milan",
+        "inter",
+        "ac milan",
+        "inter milan"
       ]
     },
     {
-      "clue": "Quel club joue au Camp Nou ?",
+      "clue": "Quel est le surnom de la sélection brésilienne ?",
       "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
+        "la selecao",
+        "selecao"
       ]
     },
     {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
+      "clue": "Quel joueur est surnommé 'La Pulga' ?",
       "answers": [
         "messi",
         "lionel messi"
       ]
     },
     {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
+      "clue": "Dans quel pays se joue la Premier League ?",
+      "answers": [
+        "angleterre",
+        "royaume-uni",
+        "england"
+      ]
+    },
+    {
+      "clue": "Quel est le club rival du Real Madrid à Madrid ?",
+      "answers": [
+        "atletico madrid",
+        "atlético"
+      ]
+    },
+    {
+      "clue": "Quel joueur a quitté le PSG pour le Real Madrid en 2024 ?",
+      "answers": [
+        "mbappé",
+        "kylian mbappé"
+      ]
+    },
+    {
+      "clue": "Quel club français joue au Groupama Stadium ?",
+      "answers": [
+        "lyon",
+        "olympique lyonnais"
+      ]
+    },
+    {
+      "clue": "Combien de Ballons d'Or Cristiano Ronaldo a-t-il remportés ?",
+      "answers": [
+        "5",
+        "cinq"
+      ]
+    },
+    {
+      "clue": "Quel club allemand a dominé la Bundesliga entre 2010 et 2023 ?",
+      "answers": [
+        "bayern munich",
+        "bayern"
+      ]
+    },
+    {
+      "clue": "Quel pays a gagné l’Euro 2016 ?",
+      "answers": [
+        "portugal"
+      ]
+    },
+    {
+      "clue": "Quel club est surnommé les Reds ?",
+      "answers": [
+        "liverpool"
+      ]
+    },
+    {
+      "clue": "Quel joueur est connu pour la célébration 'griddy' ?",
+      "answers": [
+        "dembele",
+        "ousmane dembele"
+      ]
+    },
+    {
+      "clue": "Quel club a pour mascotte un bouc ?",
+      "answers": [
+        "cologne",
+        "fc cologne"
+      ]
+    },
+    {
+      "clue": "Quel gardien a joué pour Chelsea et le Real Madrid ?",
+      "answers": [
+        "courtois",
+        "thibaut courtois"
+      ]
+    },
+    {
+      "clue": "Quel pays a remporté la Copa América 2021 ?",
+      "answers": [
+        "argentine"
+      ]
+    },
+    {
+      "clue": "Combien de fois le Brésil a-t-il gagné la Coupe du Monde ?",
+      "answers": [
+        "5",
+        "cinq"
+      ]
+    },
+    {
+      "clue": "Qui est le capitaine de l’équipe de France en 2025 ?",
+      "answers": [
+        "mbappé",
+        "kylian mbappé"
+      ]
+    },
+    {
+      "clue": "Quel joueur a remporté le Soulier d'Or européen en 2023 ?",
+      "answers": [
+        "haaland",
+        "erling haaland"
+      ]
+    },
+    {
+      "clue": "Quel club joue ses matchs au Signal Iduna Park ?",
+      "answers": [
+        "borussia dortmund",
+        "dortmund"
+      ]
+    },
+    {
+      "clue": "Quel joueur est connu pour sa coiffure excentrique et a joué à la Juve ?",
+      "answers": [
+        "pogba",
+        "paul pogba"
+      ]
+    },
+    {
+      "clue": "Dans quel pays joue Al-Nassr ?",
+      "answers": [
+        "arabie saoudite",
+        "saudi arabia"
+      ]
+    },
+    {
+      "clue": "Qui est l’actuel sélectionneur de l’équipe de France masculine en 2025 ?",
+      "answers": [
+        "didier deschamps",
+        "deschamps"
+      ]
+    },
+    {
+      "clue": "Quel club est surnommé les Gunners ?",
+      "answers": [
+        "arsenal"
+      ]
+    },
+    {
+      "clue": "Quel stade accueille les matchs du FC Barcelone ?",
+      "answers": [
+        "camp nou"
+      ]
+    },
+    {
+      "clue": "Quel club espagnol joue en jaune et est surnommé le sous-marin jaune ?",
+      "answers": [
+        "villarreal"
+      ]
+    },
+    {
+      "clue": "Quel joueur espagnol a été capitaine du Real Madrid pendant des années ?",
+      "answers": [
+        "sergio ramos",
+        "ramos"
+      ]
+    },
+    {
+      "clue": "Qui est le meilleur buteur de l’histoire de l’Equipe de France ?",
+      "answers": [
+        "olivier giroud",
+        "giroud"
+      ]
+    },
+    {
+      "clue": "Qui a été Ballon d'Or en 2022 ?",
+      "answers": [
+        "karim benzema",
+        "benzema"
+      ]
+    },
+    {
+      "clue": "Quel ancien joueur du Barça est aujourd'hui entraîneur du club ?",
+      "answers": [
+        "xavi",
+        "xavi hernandez"
+      ]
+    },
+    {
+      "clue": "Dans quel club évolue Mohamed Salah en 2025 ?",
+      "answers": [
+        "liverpool"
+      ]
+    },
+    {
+      "clue": "Quel joueur marocain joue latéral droit au PSG en 2025 ?",
+      "answers": [
+        "achraf hakimi",
+        "hakimi"
+      ]
+    },
+    {
+      "clue": "Quel club portugais a formé Cristiano Ronaldo ?",
+      "answers": [
+        "sporting",
+        "sporting lisbonne"
+      ]
+    },
+    {
+      "clue": "Quel joueur brésilien est célèbre pour ses roulettes et son sourire ?",
+      "answers": [
+        "ronaldinho"
+      ]
+    },
+    {
+      "clue": "Quel joueur argentin a joué à Manchester City et à Barcelone ?",
+      "answers": [
+        "sergio aguero",
+        "aguero"
+      ]
+    },
+    {
+      "clue": "Quel club a été relégué de Ligue 1 en 2023 ?",
+      "answers": [
+        "ajaccio"
+      ]
+    },
+    {
+      "clue": "Quel est le surnom du stade de l’OM ?",
+      "answers": [
+        "velodrome",
+        "stade velodrome"
+      ]
+    },
+    {
+      "clue": "Quel joueur est célèbre pour avoir marqué en finale de la CDM 1998 ?",
+      "answers": [
+        "zinedine zidane",
+        "zidane"
+      ]
+    },
+    {
+      "clue": "Quel pays a été finaliste de la CDM 2018 ?",
+      "answers": [
+        "croatie"
+      ]
+    },
+    {
+      "clue": "Quel joueur a remporté la Ligue Europa avec Séville en 2023 ?",
+      "answers": [
+        "jesus navas",
+        "navas"
+      ]
+    },
+    {
+      "clue": "Quel club écossais est rival du Celtic ?",
+      "answers": [
+        "rangers",
+        "glasgow rangers"
+      ]
+    },
+    {
+      "clue": "Qui a marqué en finale de la LDC 2023 pour City ?",
+      "answers": [
+        "rodri"
+      ]
+    },
+    {
+      "clue": "Quel club anglais a pour surnom 'The Blues' ?",
+      "answers": [
+        "chelsea"
+      ]
+    },
+    {
+      "clue": "Quel joueur sénégalais a joué pour Liverpool puis le Bayern ?",
+      "answers": [
+        "sadio mane",
+        "mané"
+      ]
+    },
+    {
+      "clue": "Qui est l’entraîneur du Real Madrid en 2025 ?",
+      "answers": [
+        "ancelotti",
+        "carlo ancelotti"
+      ]
+    },
+    {
+      "clue": "Quel club espagnol est basé à Séville ?",
+      "answers": [
+        "sevilla",
+        "séville"
+      ]
+    },
+    {
+      "clue": "Dans quel club évolue Neymar en 2025 ?",
+      "answers": [
+        "al hilal"
+      ]
+    },
+    {
+      "clue": "Quel est le surnom de l’équipe nationale italienne ?",
+      "answers": [
+        "la squadra azzurra",
+        "azzurri"
+      ]
+    },
+    {
+      "clue": "Quel joueur portugais a signé à Al-Nassr en 2023 ?",
+      "answers": [
+        "cristiano ronaldo",
+        "ronaldo"
+      ]
+    },
+    {
+      "clue": "Qui a été l'entraîneur du PSG en 2023 ?",
+      "answers": [
+        "luis enrique"
+      ]
+    },
+    {
+      "clue": "Quel pays est connu pour ses maillots orange en football ?",
+      "answers": [
+        "pays-bas",
+        "pays bas",
+        "pays-bas"
+      ]
+    },
+    {
+      "clue": "Quel joueur français a joué pour Arsenal et Chelsea ?",
+      "answers": [
+        "olivier giroud",
+        "giroud"
+      ]
+    },
+    {
+      "clue": "Quel club espagnol joue au stade Benito Villamarín ?",
+      "answers": [
+        "real betis",
+        "betis"
+      ]
+    },
+    {
+      "clue": "Quel joueur est célèbre pour sa panenka en finale de l’Euro 1976 ?",
+      "answers": [
+        "antonin panenka",
+        "panenka"
+      ]
+    },
+    {
+      "clue": "Dans quel club joue Antoine Griezmann en 2025 ?",
+      "answers": [
+        "atletico madrid",
+        "atlético"
+      ]
+    },
+    {
+      "clue": "Quel est le club rival historique du FC Barcelone ?",
+      "answers": [
+        "real madrid"
+      ]
+    },
+    {
+      "clue": "Qui a inscrit un triplé contre l’Argentine en finale de la CDM 2022 ?",
+      "answers": [
+        "mbappé",
+        "kylian mbappé"
+      ]
+    },
+    {
+      "clue": "Quel club est surnommé 'les Dogues' en Ligue 1 ?",
+      "answers": [
+        "lille",
+        "losc"
+      ]
+    },
+    {
+      "clue": "Quel est le club d'origine de Riyad Mahrez ?",
+      "answers": [
+        "le havre"
+      ]
+    },
+    {
+      "clue": "Quel club anglais est basé à Newcastle ?",
+      "answers": [
+        "newcastle united",
+        "newcastle"
+      ]
+    },
+    {
+      "clue": "Quel pays a gagné la Coupe d’Afrique des Nations 2021 ?",
+      "answers": [
+        "senegal",
+        "sénégal"
+      ]
+    },
+    {
+      "clue": "Dans quel club a évolué Zlatan Ibrahimović entre 2016 et 2018 ?",
+      "answers": [
+        "manchester united"
+      ]
+    },
+    {
+      "clue": "Quel joueur uruguayen a été partenaire de Messi au Barça ?",
+      "answers": [
+        "luis suarez",
+        "suarez"
+      ]
+    },
+    {
+      "clue": "Quel club français est surnommé 'les Verts' ?",
+      "answers": [
+        "saint-etienne",
+        "asse"
+      ]
+    },
+    {
+      "clue": "Quel club écossais est surnommé 'les Bhoys' ?",
+      "answers": [
+        "celtic",
+        "celtic glasgow"
+      ]
+    },
+    {
+      "clue": "Quel joueur est associé au numéro 7 à Manchester United ?",
+      "answers": [
+        "ronaldo",
+        "cristiano ronaldo"
+      ]
+    },
+    {
+      "clue": "Quel club joue ses matchs au stade Louis-II ?",
+      "answers": [
+        "monaco",
+        "as monaco"
+      ]
+    },
+    {
+      "clue": "Quel joueur français est gardien au Milan AC en 2025 ?",
+      "answers": [
+        "mike maignan",
+        "maignan"
+      ]
+    },
+    {
+      "clue": "Quel pays a remporté la Coupe du Monde 1998 ?",
       "answers": [
         "france"
       ]
     },
     {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
+      "clue": "Qui a inscrit un doublé pour l’Italie en finale de l’Euro 2020 ?",
       "answers": [
-        "15",
-        "quinze"
+        "bonucci"
       ]
     },
     {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
+      "clue": "Dans quel club joue Lautaro Martínez en 2025 ?",
       "answers": [
-        "mbappe",
-        "kylian mbappe"
+        "inter",
+        "inter milan"
       ]
     },
     {
-      "clue": "Quel club joue au Camp Nou ?",
+      "clue": "Quel club a remporté la Supercoupe d’Europe 2023 ?",
       "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
+        "manchester city"
       ]
     },
     {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
+      "clue": "Quel joueur est célèbre pour ses dribbles et joue à Naples en 2025 ?",
       "answers": [
-        "messi",
-        "lionel messi"
+        "kvaratskhelia"
       ]
     },
     {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
+      "clue": "Quel club a remporté la Ligue Europa Conférence en 2022 ?",
       "answers": [
-        "france"
+        "roma",
+        "as roma"
       ]
     },
     {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
+      "clue": "Quel joueur français joue au Real Sociedad en 2025 ?",
       "answers": [
-        "15",
-        "quinze"
+        "mohamed-ali cho",
+        "cho"
       ]
     },
     {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
+      "clue": "Quel joueur algérien a remporté la CAN en 2019 ?",
       "answers": [
-        "mbappe",
-        "kylian mbappe"
+        "riyad mahrez",
+        "mahrez"
       ]
     },
     {
-      "clue": "Quel club joue au Camp Nou ?",
+      "clue": "Quel club anglais est basé à Birmingham ?",
       "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
+        "aston villa"
       ]
     },
     {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
+      "clue": "Quel joueur ghanéen a joué pour Chelsea et le Real Madrid ?",
       "answers": [
-        "messi",
-        "lionel messi"
+        "michael essien",
+        "essien"
       ]
     },
     {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
+      "clue": "Quel joueur polonais est attaquant du Barça en 2025 ?",
       "answers": [
-        "france"
+        "robert lewandowski",
+        "lewandowski"
       ]
     },
     {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
+      "clue": "Quel joueur a porté le numéro 7 à la Juventus ?",
       "answers": [
-        "15",
-        "quinze"
+        "cristiano ronaldo",
+        "ronaldo"
       ]
     },
     {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
+      "clue": "Quel pays est surnommé 'la Roja' ?",
       "answers": [
-        "mbappe",
-        "kylian mbappe"
+        "espagne"
       ]
     },
     {
-      "clue": "Quel club joue au Camp Nou ?",
+      "clue": "Quel joueur a remporté le Trophée Kopa en 2023 ?",
       "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
+        "jude bellingham",
+        "bellingham"
       ]
     },
     {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
+      "clue": "Quel pays a remporté la CAN 2023 ?",
       "answers": [
-        "messi",
-        "lionel messi"
+        "côte d’ivoire",
+        "cote d’ivoire"
       ]
     },
     {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
+      "clue": "Quel club joue au stade de la Beaujoire ?",
       "answers": [
-        "france"
+        "nantes",
+        "fc nantes"
       ]
     },
     {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
+      "clue": "Quel est le rival historique de Boca Juniors ?",
       "answers": [
-        "15",
-        "quinze"
+        "river plate"
       ]
     },
     {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
+      "clue": "Quel club autrichien est connu pour sa formation ?",
       "answers": [
-        "mbappe",
-        "kylian mbappe"
+        "red bull salzburg",
+        "salzburg"
       ]
     },
     {
-      "clue": "Quel club joue au Camp Nou ?",
+      "clue": "Quel joueur belge est célèbre pour ses dribbles à Chelsea ?",
       "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
+        "eden hazard",
+        "hazard"
       ]
     },
     {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
+      "clue": "Quel club portugais joue au stade de la Luz ?",
       "answers": [
-        "messi",
-        "lionel messi"
+        "benfica"
       ]
     },
     {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
+      "clue": "Quel joueur brésilien est milieu au Real Madrid en 2025 ?",
       "answers": [
-        "france"
+        "casemiro"
       ]
     },
     {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
+      "clue": "Quel ancien joueur du Real est maintenant entraîneur à Leverkusen ?",
       "answers": [
-        "15",
-        "quinze"
+        "xabi alonso"
       ]
     },
     {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
+      "clue": "Quel club a pour surnom 'les Aiglons' ?",
       "answers": [
-        "mbappe",
-        "kylian mbappe"
+        "nice",
+        "ogc nice"
       ]
     },
     {
-      "clue": "Quel club joue au Camp Nou ?",
+      "clue": "Quel joueur a été capitaine du PSG avant Marquinhos ?",
       "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
+        "thiago silva"
       ]
     },
     {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
+      "clue": "Quel joueur camerounais a été légende du Barça et de l’Inter ?",
       "answers": [
-        "messi",
-        "lionel messi"
+        "samuel eto'o",
+        "eto'o",
+        "etoo"
       ]
     },
     {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
+      "clue": "Quel club espagnol est surnommé 'les Che' ?",
       "answers": [
-        "france"
+        "valence",
+        "valencia"
       ]
     },
     {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
+      "clue": "Quel joueur marocain a été élu révélation à la CDM 2022 ?",
       "answers": [
-        "15",
-        "quinze"
+        "sofyan amrabat",
+        "amrabat"
       ]
     },
     {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
+      "clue": "Quel joueur a porté le brassard de capitaine du Bayern en 2023 ?",
       "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
-      ]
-    },
-    {
-      "clue": "Je suis argentin, j'ai remporté la Coupe du Monde 2022 et j'ai gagné 8 Ballons d'Or.",
-      "answers": [
-        "messi",
-        "lionel messi"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe du Monde 2018 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Combien de Ligue des Champions a remporté le Real Madrid ?",
-      "answers": [
-        "15",
-        "quinze"
-      ]
-    },
-    {
-      "clue": "Je suis français et j'ai signé au Real Madrid en 2024.",
-      "answers": [
-        "mbappe",
-        "kylian mbappe"
-      ]
-    },
-    {
-      "clue": "Quel club joue au Camp Nou ?",
-      "answers": [
-        "barcelone",
-        "fc barcelone",
-        "barcelona"
+        "manuel neuer",
+        "neuer"
       ]
     }
   ],
   "intermediaire": [
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel était le score de la finale de la Coupe du Monde 2006 entre la France et l’Italie ?",
+      "answers": [
+        "1-1"
+      ]
+    },
+    {
+      "clue": "Quel joueur allemand a marqué le but vainqueur en finale de la CDM 2014 ?",
+      "answers": [
+        "mario gotze",
+        "gotze"
+      ]
+    },
+    {
+      "clue": "Quel club a remporté la Ligue des Champions en 2004 avec José Mourinho ?",
+      "answers": [
+        "porto"
+      ]
+    },
+    {
+      "clue": "Qui a été finaliste du Ballon d’Or en 2023 aux côtés de Messi ?",
+      "answers": [
+        "haaland",
+        "erling haaland"
+      ]
+    },
+    {
+      "clue": "Quel joueur a raté un penalty en finale de la CDM 1994 ?",
+      "answers": [
+        "roberto baggio",
+        "baggio"
+      ]
+    },
+    {
+      "clue": "Quel club a perdu la finale de la LDC 2019 contre Liverpool ?",
+      "answers": [
+        "tottenham"
+      ]
+    },
+    {
+      "clue": "Quel gardien a été élu meilleur joueur de la CDM 2002 ?",
+      "answers": [
+        "oliver kahn",
+        "kahn"
+      ]
+    },
+    {
+      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan ?",
       "answers": [
         "3-3"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Quel club espagnol a remporté la Ligue Europa en 2023 ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "sevilla",
+        "séville"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Qui a marqué le but vainqueur en finale de la LDC 2022 ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "vinicius",
+        "vinicius jr"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel joueur a joué pour Arsenal, Barcelone, puis Chelsea ?",
+      "answers": [
+        "cesc fabregas",
+        "fabregas"
+      ]
+    },
+    {
+      "clue": "Quel club belge joue au stade Jan Breydel ?",
+      "answers": [
+        "club brugge",
+        "bruges"
+      ]
+    },
+    {
+      "clue": "Quel joueur brésilien a joué pour le Real Madrid, Arsenal, et Chelsea ?",
+      "answers": [
+        "willian"
+      ]
+    },
+    {
+      "clue": "Quel club a terminé dernier de la Ligue 1 en 2022/23 ?",
+      "answers": [
+        "ajaccio"
+      ]
+    },
+    {
+      "clue": "Quel est le surnom de la sélection uruguayenne ?",
+      "answers": [
+        "la celeste"
+      ]
+    },
+    {
+      "clue": "Combien de LDC a remporté l’Ajax Amsterdam ?",
       "answers": [
         "4",
         "quatre"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel joueur a été transféré du Barça à l’Inter Miami en 2023 ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "sergio busquets",
+        "busquets"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel défenseur central a marqué en finale de l’Euro 2016 ?",
       "answers": [
-        "3-3"
+        "pepe"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Qui était sélectionneur de l’Allemagne pendant la CDM 2014 ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "joachim löw",
+        "low"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Quel joueur a été capitaine de l’Angleterre lors de l’Euro 2020 ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "harry kane"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel gardien a remporté la LDC avec deux clubs différents ?",
       "answers": [
-        "4",
-        "quatre"
+        "keylor navas",
+        "navas"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel pays a été finaliste de l’Euro 2020 ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "angleterre"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel entraîneur a dirigé Chelsea et le Real Madrid ?",
       "answers": [
-        "3-3"
+        "mourinho",
+        "josé mourinho"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Quel joueur a porté le numéro 10 au Brésil en CDM 2014 ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "neymar"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Quel club allemand a été en finale de LDC en 2013 contre le Bayern ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "dortmund"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel joueur espagnol a joué à Liverpool puis au Bayern ?",
       "answers": [
-        "4",
-        "quatre"
+        "thiago alcantara",
+        "thiago"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel club français a gagné la Coupe Intertoto en 2005 ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "lens"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel club italien est surnommé 'la Vieille Dame' ?",
       "answers": [
-        "3-3"
+        "juventus",
+        "juve"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Quel pays a remporté l’Euro 2008 et 2012 ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "espagne"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Qui a inscrit le but vainqueur de l’Euro 2016 ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "eder"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel club a été champion de Ligue 1 en 2021 ?",
       "answers": [
-        "4",
-        "quatre"
+        "lille"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel joueur a été formé au Havre et est devenu star à Leicester puis City ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "riyad mahrez",
+        "mahrez"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel entraîneur a remporté la LDC 2023 avec City ?",
       "answers": [
-        "3-3"
+        "pep guardiola",
+        "guardiola"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Quel joueur a joué à Dortmund, Bayern Munich, puis au Barça ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "lewandowski"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Quel joueur néerlandais a joué au Bayern, au Real et à Chelsea ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "robben",
+        "arjen robben"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Qui a été le meilleur buteur de la CDM 2022 ?",
       "answers": [
-        "4",
-        "quatre"
+        "mbappé",
+        "kylian mbappé"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel club espagnol a été relégué en 2023 ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "elche"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel club turc est rival de Fenerbahce ?",
       "answers": [
-        "3-3"
+        "galatasaray"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Quel joueur portugais a joué pour Manchester United et l’Inter ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "bruno fernandes",
+        "fernandes"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Quel joueur a disputé 5 Coupes du Monde avec le Mexique ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "guillermo ochoa",
+        "ochoa"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel est le nom du championnat saoudien ?",
       "answers": [
-        "4",
-        "quatre"
+        "saudi pro league"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel joueur a été capitaine de l’Italie en CDM 2006 ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "cannavaro",
+        "fabio cannavaro"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel club ukrainien est basé à Donetsk ?",
       "answers": [
-        "3-3"
+        "shakhtar donetsk",
+        "shakhtar"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Quel club argentin a révélé Lionel Messi ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "newell's old boys",
+        "newells"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Quel joueur belge a joué pour Lille puis Milan ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "saelemaekers"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel club suisse est basé à Berne ?",
       "answers": [
-        "4",
-        "quatre"
+        "young boys"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel joueur croate est milieu au Real Madrid en 2025 ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "luka modric",
+        "modric"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel gardien a remporté la CAN avec le Sénégal ?",
       "answers": [
-        "3-3"
+        "edouard mendy",
+        "mendy"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Quel joueur argentin a signé à Chelsea en 2023 ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "enzo fernandez",
+        "enzo"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Quel joueur brésilien a marqué lors de la finale de la CDM 2002 ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "ronaldo"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel club a remporté la Ligue Europa en 2021 ?",
       "answers": [
-        "4",
-        "quatre"
+        "villarreal"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel pays a perdu la finale de la CDM 1998 ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "brésil"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel joueur espagnol a marqué un doublé en finale de l’Euro 2012 ?",
       "answers": [
-        "3-3"
+        "david silva"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Quel club italien a gagné la LDC en 1996 ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "juventus"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Quel joueur néerlandais a été célèbre pour ses frappes puissantes au Bayern ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "robben",
+        "arjen robben"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel club français a été demi-finaliste de la LDC en 2020 ?",
       "answers": [
-        "4",
-        "quatre"
+        "lyon",
+        "olympique lyonnais"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel joueur allemand a marqué en finale de CDM 1990 ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "andreas brehme",
+        "brehme"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel club a terminé champion de Serie A en 2023 ?",
       "answers": [
-        "3-3"
+        "naples",
+        "napoli"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Qui était le sélectionneur du Portugal à l’Euro 2016 ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "fernando santos"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Quel joueur a reçu le Ballon d'Or en 2006 ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "fabio cannavaro",
+        "cannavaro"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel joueur ivoirien a été capitaine de Chelsea ?",
       "answers": [
-        "4",
-        "quatre"
+        "didier drogba",
+        "drogba"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel joueur français a raté un penalty en finale de la CDM 2006 ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "david trezeguet",
+        "trezeguet"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel club a perdu la finale de la LDC 2002 contre le Real Madrid ?",
       "answers": [
-        "3-3"
+        "bayer leverkusen"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Quel joueur a marqué un but en finale de l’Euro 2000 ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "sylvain wiltord",
+        "wiltord"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Quel club a été finaliste de la Ligue Europa en 2022 ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "rangers",
+        "glasgow rangers"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel pays a remporté la CAN en 2013 ?",
       "answers": [
-        "4",
-        "quatre"
+        "nigeria"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel joueur argentin a joué à l’OM et a remporté la Copa América 2021 ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "dario benedetto",
+        "benedetto"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel joueur italien a été suspendu pour dopage en 2023 ?",
       "answers": [
-        "3-3"
+        "paul pogba",
+        "pogba"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Quel joueur a gagné la LDC avec 3 clubs différents ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "clarence seedorf",
+        "seedorf"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Quel pays a accueilli la Coupe du Monde en 1994 ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "etats-unis",
+        "états-unis",
+        "usa"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel club espagnol a remporté la Supercoupe en 2022 ?",
       "answers": [
-        "4",
-        "quatre"
+        "real madrid"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel joueur a été capitaine de l’Argentine avant Messi ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "javier mascherano",
+        "mascherano"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel joueur brésilien a été Ballon d'Or en 2005 ?",
       "answers": [
-        "3-3"
+        "ronaldinho"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Quel gardien a remporté la Coupe du Monde 1998 avec la France ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "fabien barthez",
+        "barthez"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Quel pays africain a atteint les demi-finales de la CDM 2022 ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "maroc"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel club italien a été relégué en Serie B pour scandale en 2006 ?",
       "answers": [
-        "4",
-        "quatre"
+        "juventus"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel joueur espagnol a inscrit le but vainqueur en finale de l’Euro 2008 ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "fernando torres",
+        "torres"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel joueur croate a été Ballon d'Or en 2018 ?",
       "answers": [
-        "3-3"
+        "luka modric",
+        "modric"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Quel joueur anglais est meilleur buteur de l'histoire de Tottenham ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "harry kane"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Quel club a gagné la Ligue Europa en 2019 ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "chelsea"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel joueur allemand a été connu pour ses frappes de loin et a joué à Arsenal ?",
       "answers": [
-        "4",
-        "quatre"
+        "mesut ozil",
+        "özil"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel pays a battu l’Allemagne en finale de la CDM 1954 ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "hongrie"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel joueur a inscrit un triplé en demi-finale de LDC 2022 ?",
       "answers": [
-        "3-3"
+        "benzema",
+        "karim benzema"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Quel club espagnol a été promu en Liga en 2023 ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "granada"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Quel joueur a été capitaine de la Belgique pendant l’Euro 2020 ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "eden hazard",
+        "hazard"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel joueur argentin est célèbre pour sa main en CDM 1986 ?",
       "answers": [
-        "4",
-        "quatre"
+        "maradona",
+        "diego maradona"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel club grec a participé à la LDC 2022/23 ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "olympiakos"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel club turc est basé à Istanbul et a gagné la Super Lig en 2023 ?",
       "answers": [
-        "3-3"
+        "galatasaray"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Quel joueur est le meilleur buteur de l’histoire de la LDC ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "cristiano ronaldo",
+        "ronaldo"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Quel pays a organisé l’Euro 2016 ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "france"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel joueur sénégalais a quitté Liverpool pour le Bayern en 2022 ?",
       "answers": [
-        "4",
-        "quatre"
+        "sadio mane",
+        "mané"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel joueur espagnol a joué pour Villarreal et le PSG ?",
       "answers": [
-        "lionel messi",
-        "messi"
+        "paco alcacer"
       ]
     },
     {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
+      "clue": "Quel joueur allemand a marqué en finale de la CDM 2014 ?",
       "answers": [
-        "3-3"
+        "mario gotze"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
+      "clue": "Quel club français a été relégué en Ligue 2 en 2023 ?",
       "answers": [
-        "griezmann",
-        "antoine griezmann"
+        "auxerre"
       ]
     },
     {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
+      "clue": "Quel joueur croate a joué pour l’Inter, le Real et Chelsea ?",
       "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
+        "mateo kovacic",
+        "kovacic"
       ]
     },
     {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
+      "clue": "Quel club portugais a remporté le championnat en 2023 ?",
       "answers": [
-        "4",
-        "quatre"
+        "benfica"
       ]
     },
     {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
+      "clue": "Quel entraîneur a remporté la LDC avec Liverpool en 2019 ?",
       "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
-      ]
-    },
-    {
-      "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan AC ?",
-      "answers": [
-        "3-3"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un doublé contre la Croatie en finale de la Coupe du Monde 2018 ?",
-      "answers": [
-        "griezmann",
-        "antoine griezmann"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2020 contre le Bayern Munich ?",
-      "answers": [
-        "psg",
-        "paris",
-        "paris saint-germain"
-      ]
-    },
-    {
-      "clue": "Combien de Coupes du Monde a gagné l’Allemagne ?",
-      "answers": [
-        "4",
-        "quatre"
-      ]
-    },
-    {
-      "clue": "Qui a remporté le Ballon d'Or 2023 ?",
-      "answers": [
-        "lionel messi",
-        "messi"
+        "jurgen klopp",
+        "klopp"
       ]
     }
   ]
