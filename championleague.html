@@ -111,8 +111,11 @@
       { year: 2010, winner: "Inter Milan", img: "clubs/2010.png", aliases: ["inter", "inter milan"] },
       { year: 2009, winner: "Barcelona", img: "clubs/2009.png", aliases: ["barca", "fc barcelona", "barcelone", "fc barcelone"] },
       { year: 2008, winner: "Manchester United", img: "clubs/2008.png", aliases: ["united", "manchester united", "man united"] },
-      { year: 2007, winner: "AC Milan", img: "clubs/2007.png", aliases: ["milan ac"] },
+      { year: 2007, winner: "AC Milan", img: "clubs/2007.png", aliases: ["milan ac", "ac milan"] },
       { year: 2006, winner: "Barcelona", img: "clubs/2006.png", aliases: ["barca", "fc barcelona", "barcelone", "fc barcelone"] },
+      { year: 2005, winner: "Liverpool", img: "clubs/2019.png", aliases: ["liverpool"] },
+      { year: 2004, winner: "FC Porto", img: "clubs/2004.png", aliases: ["porto"] },
+      { year: 2003, winner: "AC Milan", img: "clubs/2003.png", aliases: ["milan ac", "ac milan"] },
     ];
 
     let current;
@@ -130,7 +133,12 @@
     const clubImg = document.getElementById("club-img");
 
     function normalize(str) {
-      return str.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").trim();
+      return str
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/\p{Diacritic}/gu, "")
+        .replace(/\s+/g, " ")
+        .trim();
     }
 
     function pickYear() {
