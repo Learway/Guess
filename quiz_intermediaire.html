@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Niveau Intermediaire</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+      background: #f3f4f6;
+      padding: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+    .input {
+      padding: 0.5rem;
+      width: 100%;
+      margin-bottom: 1rem;
+      box-sizing: border-box;
+    }
+    .button {
+      padding: 0.5rem;
+      width: 100%;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+    .button.red {
+      background: #ef4444;
+    }
+    .status {
+      font-weight: bold;
+      margin: 0.5rem 0;
+    }
+    .clue {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+      font-weight: bold;
+    }
+
+.switch-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: #e5e7eb;
+  color: #111827;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.switch-button:hover {
+  background: #d1d5db;
+}
+
+</style>
+</head>
+<body>
+
+  <a href="devine.html" class="switch-button">Devine le Joueur</a>
+  <a href="championleague.html" class="switch-button" style="top: 3.5rem;">Ligue des Champions</a>
+  <a href="cdm.html" class="switch-button" style="top: 6rem;">Coupe du Monde</a>
+  <a href="ballondor.html" class="switch-button" style="top: 8.5rem;">Ballon d'Or</a>
+  <a href="quiz.html" class="switch-button" style="top: 11rem;">Quiz Foot</a>
+
+  <div class="card">
+    <h1>Quiz Niveau Intermediaire</h1>
+    <p>Streak: <span id="streak">0</span></p>
+    <p>Erreurs: <span id="errors">0</span></p>
+    <div class="clue" id="clue">Chargement...</div>
+    <p id="status" class="status"></p>
+    <input id="guess-input" class="input" type="text" placeholder="Votre réponse..." />
+    <button id="action-button" class="button">Valider</button>
+  </div>
+
+  <script>
+    let questions = [];
+    let current;
+    let streak = 0;
+    let errors = 0;
+    let status = "loading";
+    let remaining = [];
+
+    const clueDiv = document.getElementById("clue");
+    const input = document.getElementById("guess-input");
+    const button = document.getElementById("action-button");
+    const statusText = document.getElementById("status");
+    const streakText = document.getElementById("streak");
+    const errorsText = document.getElementById("errors");
+
+    function normalize(str) {
+      return str.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").replace(/\s+/g, " ").trim();
+    }
+
+    function pickQuestion() {
+      if (remaining.length === 0) remaining = [...questions];
+      const index = Math.floor(Math.random() * remaining.length);
+      current = remaining[index];
+      remaining.splice(index, 1);
+      clueDiv.textContent = current.clue;
+      input.value = "";
+      errors = 0;
+      errorsText.textContent = errors;
+      status = "playing";
+      statusText.textContent = "";
+      button.textContent = "Valider";
+      button.classList.remove("red");
+    }
+
+    function checkGuess() {
+      if (status !== "playing") {
+        if (status === "win" || status === "lose") pickQuestion();
+        return;
+      }
+      const guess = normalize(input.value);
+      const validAnswers = current.answers.map(normalize);
+      if (validAnswers.includes(guess)) {
+        statusText.textContent = "✔ " + current.answers[0];
+        statusText.style.color = "green";
+        streak++;
+        streakText.textContent = streak;
+        status = "win";
+        button.textContent = "Suivant";
+      } else {
+        errors++;
+        errorsText.textContent = errors;
+        if (errors >= 3) {
+          statusText.textContent = "✘ C'était " + current.answers[0];
+          statusText.style.color = "red";
+          status = "lose";
+          button.textContent = "Recommencer";
+          button.classList.add("red");
+        }
+      }
+    }
+
+    async function loadQuestions() {
+      try {
+        const response = await fetch("questions.json");
+        const data = await response.json();
+        questions = data["intermediaire"];
+        remaining = [...questions];
+        pickQuestion();
+      } catch (e) {
+        clueDiv.textContent = "Erreur de chargement des questions.";
+        console.error(e);
+      }
+    }
+
+    button.addEventListener("click", checkGuess);
+    document.addEventListener("keydown", e => { if (e.key === "Enter") checkGuess(); });
+
+    loadQuestions();
+  </script>
+</body>
+</html>
