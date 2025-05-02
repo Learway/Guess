@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foot - Devine le joueur</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+      background: #f3f4f6;
+      padding: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+    .player-img {
+      width: 100%;
+      border-radius: 1rem;
+      margin-bottom: 1rem;
+      transition: filter 0.3s;
+    }
+    .input {
+      padding: 0.5rem;
+      width: 100%;
+      margin-bottom: 1rem;
+      box-sizing: border-box;
+    }
+    .button {
+      padding: 0.5rem;
+      width: 100%;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+    .button.red {
+      background: #ef4444;
+    }
+    .status {
+      font-weight: bold;
+      margin: 0.5rem 0;
+    }
+  
+.switch-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: #e5e7eb;
+  color: #111827;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.switch-button:hover {
+  background: #d1d5db;
+}
+
+</style>
+</head>
+<body>
+  <a href="championleague.html" class="switch-button">Ligue des Champions</a>
+  <a href="cdm.html" class="switch-button" style="top: 3.5rem;">Coupe du Monde</a>
+  <a href="ballondor.html" class="switch-button" style="top: 6rem;">Ballon d'Or</a>
+  <div class="card">
+    <h1>Devine le joueur</h1>
+    <p>Streak: <span id="streak">0</span></p>
+    <p>Erreurs: <span id="errors">0</span></p>
+    <img id="player-img" class="player-img" src="players/messi.jpg" style="filter: blur(10px);" />
+    <p id="status" class="status"></p>
+    <input id="guess-input" class="input" type="text" placeholder="Nom du joueur" />
+    <button id="action-button" class="button">Valider</button>
+  </div>
+
+  <script>
+    const players = [
+      { name: "Lionel Messi", img: "players/messi.jpg" },
+      { name: "Cristiano Ronaldo", img: "players/ronaldo.webp" },
+      { name: "Kylian Mbappé", img: "players/mbappe.jpg" },
+      { name: "Erling Haaland", img: "players/haaland.jpg" },
+      { name: "Kaká", img: "players/kaka.jpg" },
+      { name: "Ousmane Dembélé", img: "players/dembele.jpeg" },
+      { name: "Jude Bellingham", img: "players/bellingham.jpg" },
+      { name: "Mohamed Salah", img: "players/salah.jpg" },
+      { name: "Kevin De Bruyne", img: "players/debruyne.webp" },
+      { name: "Maxim De Cuyper", img: "players/decuyper.jpg" },
+      { name: "Victor Osimhen", img: "players/osimhen.jpg" },
+      { name: "Ademola Lookman", img: "players/lookman.jpg" },
+      { name: "Rodrygo", img: "players/rodrygo.webp" },
+      { name: "Vinicius JR", img: "players/vinicius.webp" },
+      { name: "Antonio Rüdiger", img: "players/rudiger.jpg" },
+      { name: "Raúl Asencio", img: "players/asencio.jpeg" },
+      { name: "Luis Suárez", img: "players/suarez.jpg" },
+      { name: "Désiré Doué", img: "players/doue.webp" },
+      { name: "João Neves", img: "players/neves.webp" },
+      { name: "Jadon Sancho", img: "players/sancho.webp" },
+      { name: "Kenan Yıldız", img: "players/yildiz.jpg" },
+      { name: "Dušan Vlahović", img: "players/vlahovic.jpg" },
+      { name: "Francisco Conceição", img: "players/conceicao.jpg" },
+      { name: "Kolo Muani", img: "players/kolo.jpg" },
+      { name: "Arda Güler", img: "players/arda.webp" },
+      { name: "Zinédine Zidane", img: "players/zidane.jpg" },
+      { name: "Leny Yoro", img: "players/yoro.webp" },
+      { name: "Lamine Yamal", img: "players/yamal.jpeg" },
+      { name: "Rodrigo Mora", img: "players/mora.jpg" },
+      { name: "Pauleta", img: "players/pauleta.jpeg" },
+      { name: "Fikayo Tomori", img: "players/tomori.jpg" },
+      { name: "Heung-min Son", img: "players/son.jpg" },
+      { name: "Alexander Isak", img: "players/isak.webp" },
+      { name: "Martin Terrier", img: "players/terrier.webp" },
+      { name: "Matthis Abline", img: "players/abline.jpg" },
+      { name: "Malick Fofana", img: "players/fofana.webp" },
+      { name: "Endrick", img: "players/endrick.webp" },
+      { name: "Tiago Santos", img: "players/santos.webp" },
+      { name: "Thomas Meunier", img: "players/meunier.jpg" },
+      { name: "Willian Pacho", img: "players/pacho.jpg" },
+      { name: "John McGinn", img: "players/mcginn.jpg" },
+      { name: "Ollie Watkins", img: "players/watkins.jpg" },
+      { name: "Marcus Rashford", img: "players/rashford.jpg" },
+      { name: "Gregor Kobel", img: "players/kobel.jpeg" },
+      { name: "Karim Adeyemi", img: "players/adeyemi.jpg" },
+      { name: "Abdukodir Khusanov", img: "players/khusanov.jpeg" },
+      { name: "Luis Díaz", img: "players/diaz.jpg" },
+      { name: "Cody Gakpo", img: "players/gakpo.webp" },
+      { name: "Alexis Mac Allister", img: "players/allister.jpg" },
+      { name: "Andrés Iniesta", img: "players/iniesta.jpg" },
+      { name: "Marquinhos", img: "players/marquinhos.jpg" },
+      { name: "Xavi Hernández Creus", img: "players/xavi.webp" },
+      { name: "Paulo Dybala", img: "players/dybala.jpg" },
+      { name: "Moise Kean", img: "players/kean.webp" },
+      { name: "Nico Williams", img: "players/williams.webp" },
+      { name: "Julian Alvarez", img: "players/alvarez.jpg" },
+      { name: "Antoine Griezmann", img: "players/griezmann.jpg" },
+      { name: "Jan Oblak", img: "players/oblak.webp" },
+      { name: "João Felix", img: "players/felix.webp" },
+      { name: "Leroy Sané", img: "players/sane.webp" },
+      { name: "Joshua Kimmich", img: "players/kimmich.webp" },
+      { name: "Manuel Neuer", img: "players/neuer.jpg" },
+      { name: "Pedri", img: "players/pedri.jpg" },
+      { name: "Dani Olmo", img: "players/olmo.jpg" },
+      { name: "Jules Koundé", img: "players/kounde.jpg" },
+      { name: "Achraf Hakimi", img: "players/hakimi.jpg" },
+      { name: "Andrey Santos", img: "players/andrey.jpeg" },
+      { name: "Declan Rice", img: "players/rice.jpg" },
+      { name: "Bruno Fernandes", img: "players/fernandes.jpg" },
+      { name: "Ludovic Ajorque", img: "players/ajorque.jpg" },
+      { name: "Bukayo Saka", img: "players/saka.png" },
+      { name: "Wilfried Singo", img: "players/singo.webp" },
+      { name: "Denzel Dumfries", img: "players/dumfries.jpg" },
+      { name: "Benjamin Pavard", img: "players/pavard.webp" },
+      { name: "Lautaro Martinez", img: "players/lautaro.webp" },
+      { name: "Vitinha", img: "players/vitinha.jpg" },
+      { name: "Marcus Thuram", img: "players/thuram.jpg" },
+      { name: "Kai Havertz", img: "players/havertz.webp" },
+      { name: "Carlos Soler", img: "players/soler.jpg" },
+      { name: "Diego Maradona", img: "players/maradona.jpg" },
+      { name: "Ricardo Quaresma", img: "players/quaresma.jpg" },
+      { name: "Vangelis Pavlidis", img: "players/pavlidis.jpg" },
+      { name: "Robert Lewandowski", img: "players/lewandowski.webp" },
+      { name: "Gianluigi Buffon", img: "players/buffon.jpeg" },
+      { name: "Pelé", img: "players/pele.jpg" },
+      { name: "Neymar da Silva Santos Júnior", img: "players/neymar.jpg" },
+      { name: "Corentin Tolisso", img: "players/tolisso.jpg" },
+      { name: "Raphinha", img: "players/raphinha.jpg" },
+      { name: "Memphis Depay", img: "players/depay.jpg" },
+      { name: "Marco Asensio", img: "players/asensio.jpg" },
+      { name: "André Onana", img: "players/onana.jpg" },
+      { name: "Harry Kane", img: "players/kane.jpg" },
+      { name: "Viktor Gyökeres", img: "players/gyokeres.jpg" },
+      { name: "Javier Pastore", img: "players/pastore.jpg" },
+      { name: "Cole Palmer", img: "players/palmer.jpg" },
+      { name: "Hugo Ekitike", img: "players/ekitike.jpg" },
+      { name: "Nicolò Zaniolo", img: "players/zaniolo.jpg" },
+      { name: "Florian Wirtz", img: "players/wirtz.jpg" },
+      { name: "Nicolas Jackson", img: "players/jackson.jpg" },
+      { name: "James Maddison", img: "players/maddison.jpg" },
+      { name: "Leandro Trossard", img: "players/trossard.jpg" },
+      { name: "Gabriel Martinelli", img: "players/martinelli.jpg" },
+      { name: "Bradley Barcola", img: "players/barcola.jpg" },
+      { name: "Lucas Chevalier", img: "players/chevalier.jpg" },
+      { name: "Gianluigi Donnarumma", img: "players/donnarumma.jpg" },
+      { name: "Caio Henrique", img: "players/henrique.jpg" },
+      { name: "Maghnes Akliouche", img: "players/akliouche.jpg" },
+      { name: "Pau Cubarsí", img: "players/cubarsi.jpg" },
+      { name: "Hakan Çalhanoğlu", img: "players/calhanoglu.jpg" },
+      { name: "William Saliba", img: "players/saliba.png" },
+      { name: "Rafael Leão", img: "players/leao.webp" },
+      { name: "Éderson", img: "players/ederson.png" },
+      { name: "Marc Cucurella", img: "players/cucurella.png" },
+      { name: "Juninho", img: "players/juninho.png" },
+      { name: "Rodri", img: "players/rodri.png" },
+      { name: "Nicolas Pallois", img: "players/pallois.png" },
+    ];
+
+    let currentPlayer;
+    let blurLevel = 10;
+    let streak = 0;
+    let errors = 0;
+    let status = "playing";
+    let remainingPlayers = [...players];
+
+    const img = document.getElementById("player-img");
+    const input = document.getElementById("guess-input");
+    const button = document.getElementById("action-button");
+    const statusText = document.getElementById("status");
+    const streakText = document.getElementById("streak");
+    const errorsText = document.getElementById("errors");
+
+    function removeAccents(str) {
+      return str.normalize("NFD").replace(/\p{Diacritic}/gu, "");
+    }
+
+    function normalize(str) {
+      return removeAccents(str.toLowerCase().replace(/ı/g, 'i').trim());
+    }
+
+    function pickPlayer() {
+      if (remainingPlayers.length === 0) {
+        remainingPlayers = [...players];
+      }
+      const randomIndex = Math.floor(Math.random() * remainingPlayers.length);
+      currentPlayer = remainingPlayers[randomIndex];
+      remainingPlayers.splice(randomIndex, 1);
+
+      img.style.transition = 'none';
+      img.style.filter = 'blur(10px)';
+      setTimeout(() => { img.style.transition = 'filter 0.3s'; }, 50);
+
+      img.src = '';
+      const tempImg = new Image();
+      tempImg.onload = () => { img.src = tempImg.src; };
+      tempImg.src = currentPlayer.img;
+
+      img.style.filter = `blur(10px)`;
+      blurLevel = 10;
+      input.value = "";
+      errors = 0;
+      errorsText.textContent = errors;
+      status = "playing";
+      statusText.textContent = "";
+      button.textContent = "Valider";
+      button.classList.remove("red");
+    }
+
+    function checkGuess() {
+      if (status !== "playing") {
+        if (status === "win") pickPlayer();
+        else if (status === "lose") {
+          streak = 0;
+          streakText.textContent = streak;
+          pickPlayer();
+        }
+        return;
+      }
+
+      const rawGuess = input.value;
+      if (rawGuess.includes('ı')) {
+        errors++;
+        errorsText.textContent = errors;
+        blurLevel -= 2;
+        if (blurLevel <= 2) {
+          img.style.filter = "none";
+          statusText.textContent = `Perdu ! C'était ${currentPlayer.name}`;
+          statusText.style.color = "red";
+          status = "lose";
+          button.textContent = "Recommencer";
+          button.classList.add("red");
+        } else {
+          img.style.filter = `blur(${blurLevel}px)`;
+        }
+        return;
+      }
+      const guess = normalize(rawGuess);
+      const target = normalize(currentPlayer.name);
+
+      if (guess === target || guess === normalize(currentPlayer.name.split(' ')[0]) || guess === normalize(currentPlayer.name.split(' ').slice(-1)[0])) {
+        img.style.filter = "none";
+        statusText.textContent = currentPlayer.name;
+        statusText.style.color = "green";
+        streak++;
+        streakText.textContent = streak;
+        status = "win";
+        button.textContent = "Suivant";
+      } else {
+        errors++;
+        errorsText.textContent = errors;
+        blurLevel -= 2;
+        if (blurLevel <= 2) {
+          img.style.filter = "none";
+          statusText.textContent = `Perdu ! C'était ${currentPlayer.name}`;
+          statusText.style.color = "red";
+          status = "lose";
+          button.textContent = "Recommencer";
+          button.classList.add("red");
+        } else {
+          img.style.filter = `blur(${blurLevel}px)`;
+        }
+      }
+    }
+
+    button.addEventListener("click", checkGuess);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") checkGuess();
+    });
+
+    pickPlayer();
+  </script>
+</body>
+</html>

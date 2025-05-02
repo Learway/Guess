@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ballon d'Or - Devine le Gagnant</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+      background: #f3f4f6;
+      padding: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+    .input {
+      padding: 0.5rem;
+      width: 100%;
+      margin-bottom: 1rem;
+      box-sizing: border-box;
+    }
+    .button {
+      padding: 0.5rem;
+      width: 100%;
+      background: #f59e0b;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+    .button.red {
+      background: #ef4444;
+    }
+    .status {
+      font-weight: bold;
+      margin: 0.5rem 0;
+    }
+    .year {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 1rem 0;
+    }
+    #player-img {
+      display: none;
+      width: 100%;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  
+.switch-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: #e5e7eb;
+  color: #111827;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.switch-button:hover {
+  background: #d1d5db;
+}
+</style>
+
+</head>
+
+  <body>
+  <a href="devine.html" class="switch-button">Devine le Joueur</a>
+  <a href="championleague.html" class="switch-button" style="top: 3.5rem;">Ligue des Champions</a>
+  <a href="cdm.html" class="switch-button" style="top: 6rem;">Coupe du Monde</a>
+
+  <div class="card">
+    <h1>Ballon d'Or</h1>
+    <p>Streak: <span id="streak">0</span></p>
+    <p>Erreurs: <span id="errors">0</span></p>
+    <div class="year" id="year">2023</div>
+    <img id="player-img" src="" alt="Image du joueur" />
+    <p id="status" class="status"></p>
+    <input id="guess-input" class="input" type="text" placeholder="Nom du joueur" />
+    <button id="action-button" class="button">Valider</button>
+  </div>
+
+  <script>
+    const winners = [
+  { year: 2024, winner: "Rodri", img: "ballondor/2024.png", aliases: ["rodri"] },
+
+      { year: 2023, winner: "Lionel Messi", img: "ballondor/2023.png", aliases: ["messi", "lionel messi"] },
+      { year: 2022, winner: "Karim Benzema", img: "ballondor/2022.png", aliases: ["benzema", "karim benzema"] },
+      { year: 2021, winner: "Lionel Messi", img: "ballondor/2021.png", aliases: ["messi", "lionel messi"] },
+      { year: 2019, winner: "Lionel Messi", img: "ballondor/2019.png", aliases: ["messi", "lionel messi"] },
+      { year: 2018, winner: "Luka Modrić", img: "ballondor/2018.png", aliases: ["modric", "luka modric"] },
+      { year: 2017, winner: "Cristiano Ronaldo", img: "ballondor/2017.png", aliases: ["ronaldo", "cristiano ronaldo"] },
+      { year: 2016, winner: "Cristiano Ronaldo", img: "ballondor/2016.png", aliases: ["ronaldo", "cristiano ronaldo"] },
+      { year: 2015, winner: "Lionel Messi", img: "ballondor/2015.png", aliases: ["messi", "lionel messi"] },
+      { year: 2014, winner: "Cristiano Ronaldo", img: "ballondor/2014.png", aliases: ["ronaldo", "cristiano ronaldo"] },
+      { year: 2013, winner: "Cristiano Ronaldo", img: "ballondor/2013.png", aliases: ["ronaldo", "cristiano ronaldo"] },
+      { year: 2012, winner: "Lionel Messi", img: "ballondor/2012.png", aliases: ["messi", "lionel messi"] },
+      { year: 2011, winner: "Lionel Messi", img: "ballondor/2011.png", aliases: ["messi", "lionel messi"] },
+      { year: 2010, winner: "Lionel Messi", img: "ballondor/2010.png", aliases: ["messi", "lionel messi"] },
+      { year: 2009, winner: "Lionel Messi", img: "ballondor/2009.png", aliases: ["messi", "lionel messi"] },
+      { year: 2008, winner: "Cristiano Ronaldo", img: "ballondor/2008.png", aliases: ["ronaldo", "cristiano ronaldo"] },
+      { year: 2007, winner: "Kaká", img: "ballondor/2007.png", aliases: ["kaka", "ricardo kaka"] },
+      { year: 2006, winner: "Fabio Cannavaro", img: "ballondor/2006.png", aliases: ["cannavaro", "fabio cannavaro"] },
+      { year: 2005, winner: "Ronaldinho", img: "ballondor/2005.png", aliases: ["ronaldinho"] },
+      { year: 2004, winner: "Andriy Shevchenko", img: "ballondor/2004.png", aliases: ["shevchenko", "andriy shevchenko"] },
+      { year: 2003, winner: "Pavel Nedved", img: "ballondor/2003.png", aliases: ["nedved", "pavel nedved"] },
+      { year: 2002, winner: "Ronaldo", img: "ballondor/2002.png", aliases: ["ronaldo", "ronaldo nazario"] },
+      { year: 2001, winner: "Michael Owen", img: "ballondor/2001.png", aliases: ["owen", "michael owen"] },
+      { year: 2000, winner: "Luis Figo", img: "ballondor/2000.png", aliases: ["figo", "luis figo"] },
+      { year: 1999, winner: "Rivaldo", img: "ballondor/1999.png", aliases: ["rivaldo"] },
+      { year: 1998, winner: "Zinedine Zidane", img: "ballondor/1998.png", aliases: ["zidane", "zinedine zidane"] },
+      { year: 1997, winner: "Ronaldo", img: "ballondor/1997.png", aliases: ["ronaldo", "ronaldo nazario"] },
+      { year: 1996, winner: "Matthias Sammer", img: "ballondor/1996.png", aliases: ["sammer", "matthias sammer"] },
+      { year: 1995, winner: "George Weah", img: "ballondor/1995.png", aliases: ["weah", "george weah"] },
+      { year: 1994, winner: "Hristo Stoichkov", img: "ballondor/1994.png", aliases: ["stoichkov", "hristo stoichkov"] },
+      { year: 1993, winner: "Roberto Baggio", img: "ballondor/1993.png", aliases: ["baggio", "roberto baggio"] },
+      { year: 1992, winner: "Marco van Basten", img: "ballondor/1992.png", aliases: ["van basten", "marco van basten"] },
+      { year: 1991, winner: "Jean-Pierre Papin", img: "ballondor/1991.png", aliases: ["papin", "jean-pierre papin"] },
+      { year: 1990, winner: "Lothar Matthäus", img: "ballondor/1990.png", aliases: ["matthaus", "lothar matthaus"] },
+      { year: 1989, winner: "Marco van Basten", img: "ballondor/1989.png", aliases: ["van basten", "marco van basten"] },
+      { year: 1988, winner: "Marco van Basten", img: "ballondor/1988.png", aliases: ["van basten", "marco van basten"] },
+      { year: 1987, winner: "Ruud Gullit", img: "ballondor/1987.png", aliases: ["gullit", "ruud gullit"] },
+      { year: 1986, winner: "Igor Belanov", img: "ballondor/1986.png", aliases: ["belanov", "igor belanov"] },
+      { year: 1985, winner: "Michel Platini", img: "ballondor/1985.png", aliases: ["platini", "michel platini"] },
+      { year: 1984, winner: "Michel Platini", img: "ballondor/1984.png", aliases: ["platini", "michel platini"] },
+      { year: 1983, winner: "Michel Platini", img: "ballondor/1983.png", aliases: ["platini", "michel platini"] }
+    ];
+
+    let current;
+    let streak = 0;
+    let errors = 0;
+    let status = "playing";
+    let remaining = [...winners];
+
+    const yearDiv = document.getElementById("year");
+    const input = document.getElementById("guess-input");
+    const button = document.getElementById("action-button");
+    const statusText = document.getElementById("status");
+    const streakText = document.getElementById("streak");
+    const errorsText = document.getElementById("errors");
+    const playerImg = document.getElementById("player-img");
+
+    function normalize(str) {
+      return str.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").trim();
+    }
+
+    function pickYear() {
+      if (remaining.length === 0) remaining = [...winners];
+      const index = Math.floor(Math.random() * remaining.length);
+      current = remaining[index];
+      remaining.splice(index, 1);
+      yearDiv.textContent = `Qui a gagné le Ballon d'Or en ${current.year} ?`;
+      input.value = "";
+      errors = 0;
+      errorsText.textContent = errors;
+      status = "playing";
+      statusText.textContent = "";
+      button.textContent = "Valider";
+      button.classList.remove("red");
+      playerImg.src = current.img;
+      playerImg.style.display = "none";
+    }
+
+    function checkGuess() {
+      if (status !== "playing") {
+        if (status === "win") pickYear();
+        else if (status === "lose") {
+          streak = 0;
+          streakText.textContent = streak;
+          pickYear();
+        }
+        return;
+      }
+
+      const guess = normalize(input.value);
+      const aliases = current.aliases.map(normalize);
+
+      if (aliases.includes(guess)) {
+        statusText.textContent = current.winner;
+        statusText.style.color = "green";
+        streak++;
+        streakText.textContent = streak;
+        status = "win";
+        button.textContent = "Suivant";
+        playerImg.style.display = "block";
+      } else {
+        errors++;
+        errorsText.textContent = errors;
+        if (errors >= 3) {
+          statusText.textContent = `Perdu ! C'était ${current.winner}`;
+          statusText.style.color = "red";
+          status = "lose";
+          button.textContent = "Recommencer";
+          button.classList.add("red");
+          playerImg.style.display = "block";
+        }
+      }
+    }
+
+    button.addEventListener("click", checkGuess);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") checkGuess();
+    });
+
+    pickYear();
+  </script>
+</body>
+</html>
