@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ligue des Champions - Devine le Club</title>
+  <title>Coupe du Monde - Devine le Vainqueur</title>
   <style>
     body {
       font-family: sans-serif;
@@ -33,7 +33,7 @@
     .button {
       padding: 0.5rem;
       width: 100%;
-      background: #3b82f6;
+      background: #10b981;
       color: white;
       border: none;
       border-radius: 0.5rem;
@@ -47,76 +47,60 @@
       margin: 0.5rem 0;
     }
     .year {
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-weight: bold;
       margin: 1rem 0;
     }
-    #club-img {
-  display: none;
-  width: 100%;
-  height: auto;
-  margin: 1rem auto;
-  border-radius: 1rem;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-  
-.switch-button {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  background: #e5e7eb;
-  color: #111827;
-  padding: 0.4rem 0.8rem;
-  border-radius: 0.5rem;
-  text-decoration: none;
-  font-weight: bold;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-.switch-button:hover {
-  background: #d1d5db;
-}
-
-</style>
+    #team-img {
+      display: none;
+      width: 100%;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .switch-button {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      background: #e5e7eb;
+      color: #111827;
+      padding: 0.4rem 0.8rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .switch-button:hover {
+      background: #d1d5db;
+    }
+  </style>
 </head>
 <body>
   <a href="index.html" class="switch-button">Devine le Joueur</a>
-  <a href="cdm.html" class="switch-button" style="top: 3.5rem;">Coupe du Monde</a>
+  <a href="championleague.html" class="switch-button" style="top: 3.5rem;">Ligue des Champions</a>
   <div class="card">
-    <h1>Ligue des Champions</h1>
+    <h1>Coupe du Monde</h1>
     <p>Streak: <span id="streak">0</span></p>
     <p>Erreurs: <span id="errors">0</span></p>
-    <div class="year" id="year">2023</div>
-    <img id="club-img" src="" alt="Logo du club" />
+    <div class="year" id="year">2022</div>
+    <img id="team-img" src="" alt="Image du vainqueur" />
     <p id="status" class="status"></p>
-    <input id="guess-input" class="input" type="text" placeholder="Nom du club" />
+    <input id="guess-input" class="input" type="text" placeholder="Nom du pays" />
     <button id="action-button" class="button">Valider</button>
   </div>
 
   <script>
     const champions = [
-      { year: 2024, winner: "Real Madrid", img: "clubs/2024.png", aliases: ["real", "real madrid"] },
-      { year: 2023, winner: "Manchester City", img: "clubs/2023.png", aliases: ["city", "manchester city", "man city"] },
-      { year: 2022, winner: "Real Madrid", img: "clubs/2022.png", aliases: ["real", "real madrid"] },
-      { year: 2021, winner: "Chelsea", img: "clubs/2021.png", aliases: ["chelsea"] },
-      { year: 2020, winner: "Bayern Munich", img: "clubs/2020.png", aliases: ["bayern", "bayern munich"] },
-      { year: 2019, winner: "Liverpool", img: "clubs/2019.png", aliases: ["liverpool"] },
-      { year: 2018, winner: "Real Madrid", img: "clubs/2018.png", aliases: ["real", "real madrid"] },
-      { year: 2017, winner: "Real Madrid", img: "clubs/2017.png", aliases: ["real", "real madrid"] },
-      { year: 2016, winner: "Real Madrid", img: "clubs/2016.png", aliases: ["real", "real madrid"] },
-      { year: 2015, winner: "Barcelona", img: "clubs/2015.png", aliases: ["barca", "fc barcelona", "barcelone", "fc barcelone"] },
-      { year: 2014, winner: "Real Madrid", img: "clubs/2014.png", aliases: ["real", "real madrid"] },
-      { year: 2013, winner: "Bayern Munich", img: "clubs/2013.png", aliases: ["bayern", "bayern munich"] },
-      { year: 2012, winner: "Chelsea", img: "clubs/2012.png", aliases: ["chelsea"] },
-      { year: 2011, winner: "Barcelona", img: "clubs/2011.png", aliases: ["barca", "fc barcelona", "barcelone", "fc barcelone"] },
-      { year: 2010, winner: "Inter Milan", img: "clubs/2010.png", aliases: ["inter", "inter milan"] },
-      { year: 2009, winner: "Barcelona", img: "clubs/2009.png", aliases: ["barca", "fc barcelona", "barcelone", "fc barcelone"] },
-      { year: 2008, winner: "Manchester United", img: "clubs/2008.png", aliases: ["united", "manchester united", "man united"] },
-      { year: 2007, winner: "AC Milan", img: "clubs/2007.png", aliases: ["milan ac", "ac milan"] },
-      { year: 2006, winner: "Barcelona", img: "clubs/2006.png", aliases: ["barca", "fc barcelona", "barcelone", "fc barcelone"] },
-      { year: 2005, winner: "Liverpool", img: "clubs/2019.png", aliases: ["liverpool"] },
-      { year: 2004, winner: "FC Porto", img: "clubs/2004.png", aliases: ["porto"] },
-      { year: 2003, winner: "AC Milan", img: "clubs/2003.png", aliases: ["milan ac", "ac milan"] },
+      { year: 2022, winner: "Argentine", img: "cdm/2022.png", aliases: ["argentine", "argentina"] },
+      { year: 2018, winner: "France", img: "cdm/2018.png", aliases: ["france"] },
+      { year: 2014, winner: "Allemagne", img: "cdm/2014.png", aliases: ["allemagne", "germany"] },
+      { year: 2010, winner: "Espagne", img: "cdm/2010.png", aliases: ["espagne", "spain"] },
+      { year: 2006, winner: "Italie", img: "cdm/2006.png", aliases: ["italie", "italy"] },
+      { year: 2002, winner: "Brésil", img: "cdm/2002.png", aliases: ["bresil", "brésil", "brazil"] },
+      { year: 1998, winner: "France", img: "cdm/1998.png", aliases: ["france"] },
+      { year: 1994, winner: "Brésil", img: "cdm/1994.png", aliases: ["bresil", "brésil", "brazil"] },
+      { year: 1990, winner: "Allemagne", img: "cdm/1990.png", aliases: ["allemagne", "germany"] },
     ];
 
     let current;
@@ -131,7 +115,7 @@
     const statusText = document.getElementById("status");
     const streakText = document.getElementById("streak");
     const errorsText = document.getElementById("errors");
-    const clubImg = document.getElementById("club-img");
+    const teamImg = document.getElementById("team-img");
 
     function normalize(str) {
       return str
@@ -147,7 +131,7 @@
       const index = Math.floor(Math.random() * remaining.length);
       current = remaining[index];
       remaining.splice(index, 1);
-      yearDiv.textContent = current.year;
+      yearDiv.textContent = `Qui a gagné la Coupe du Monde en ${current.year} ?`;
       input.value = "";
       errors = 0;
       errorsText.textContent = errors;
@@ -155,8 +139,8 @@
       statusText.textContent = "";
       button.textContent = "Valider";
       button.classList.remove("red");
-      clubImg.style.display = "none";
-      clubImg.src = "";
+      teamImg.style.display = "none";
+      teamImg.src = "";
     }
 
     function checkGuess() {
@@ -180,8 +164,8 @@
         streakText.textContent = streak;
         status = "win";
         button.textContent = "Suivant";
-        clubImg.src = current.img;
-        clubImg.style.display = "block";
+        teamImg.src = current.img;
+        teamImg.style.display = "block";
       } else {
         errors++;
         errorsText.textContent = errors;
@@ -191,8 +175,8 @@
           status = "lose";
           button.textContent = "Recommencer";
           button.classList.add("red");
-          clubImg.src = current.img;
-          clubImg.style.display = "block";
+          teamImg.src = current.img;
+          teamImg.style.display = "block";
         }
       }
     }

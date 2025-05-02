@@ -73,11 +73,12 @@
 </head>
 <body>
   <a href="championleague.html" class="switch-button">Ligue des Champions</a>
+  <a href="cdm.html" class="switch-button" style="top: 3.5rem;">Coupe du Monde</a>
   <div class="card">
     <h1>Devine le joueur</h1>
     <p>Streak: <span id="streak">0</span></p>
     <p>Erreurs: <span id="errors">0</span></p>
-    <img id="player-img" class="player-img" src="players/messi.webp" style="filter: blur(10px);" />
+    <img id="player-img" class="player-img" src="players/messi.jpg" style="filter: blur(10px);" />
     <p id="status" class="status"></p>
     <input id="guess-input" class="input" type="text" placeholder="Nom du joueur" />
     <button id="action-button" class="button">Valider</button>
@@ -85,7 +86,7 @@
 
   <script>
     const players = [
-      { name: "Lionel Messi", img: "players/messi.webp" },
+      { name: "Lionel Messi", img: "players/messi.jpg" },
       { name: "Cristiano Ronaldo", img: "players/ronaldo.webp" },
       { name: "Kylian Mbappé", img: "players/mbappe.jpg" },
       { name: "Erling Haaland", img: "players/haaland.jpg" },
@@ -189,9 +190,11 @@
       { name: "Gabriel Martinelli", img: "players/martinelli.jpg" },
       { name: "Bradley Barcola", img: "players/barcola.jpg" },
       { name: "Lucas Chevalier", img: "players/chevalier.jpg" },
-      { name: "Gianluigi Donnarumma", img: "players/chevalier.jpg" },
+      { name: "Gianluigi Donnarumma", img: "players/donnarumma.jpg" },
       { name: "Caio Henrique", img: "players/henrique.jpg" },
-      { name: "Maghnes Akliouche", img: "players/henrique.jpg" },
+      { name: "Maghnes Akliouche", img: "players/akliouche.jpg" },
+      { name: "Pau Cubarsí", img: "players/cubarsi.jpg" },
+      { name: "Hakan Çalhanoğlu", img: "players/calhanoglu.jpg" },
     ];
 
     let currentPlayer;
