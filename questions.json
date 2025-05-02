@@ -1,670 +1,347 @@
 {
   "facile": [
     {
-      "clue": "Quel club a remporté la Coupe du Monde des clubs en 2023 ?",
+      "clue": "Où joue Erling Haaland en 2025 ?",
       "answers": [
-        "manchester city",
-        "city"
+        "Manchester City",
+        "City"
       ]
     },
     {
-      "clue": "Quel joueur a marqué un triplé en finale de la Coupe du Monde 2022 ?",
+      "clue": "Combien de Coupes du Monde Lionel Messi a-t-il remportées ?",
       "answers": [
-        "kylian mbappé",
-        "mbappé"
+        "1",
+        "Une"
       ]
     },
     {
-      "clue": "Combien de Ligue des Champions a gagné le Real Madrid ?",
+      "clue": "Quel est le club actuel de Cristiano Ronaldo en 2025 ?",
       "answers": [
-        "15",
-        "quinze"
+        "Al Nassr"
       ]
     },
     {
-      "clue": "Quel club italien joue au stade San Siro ?",
+      "clue": "Dans quel pays joue Vinicius Jr en club ?",
       "answers": [
-        "milan",
-        "inter",
-        "ac milan",
-        "inter milan"
+        "Espagne"
       ]
     },
     {
-      "clue": "Quel est le surnom de la sélection brésilienne ?",
+      "clue": "Quel club est surnommé « le Barça » ?",
       "answers": [
-        "la selecao",
-        "selecao"
+        "Fc Barcelone",
+        "Barça",
+        "Barcelone"
       ]
     },
     {
-      "clue": "Quel joueur est surnommé 'La Pulga' ?",
+      "clue": "Qui a remporté la Ligue des Champions en 2023 ?",
       "answers": [
-        "messi",
-        "lionel messi"
+        "Manchester City",
+        "City"
       ]
     },
     {
-      "clue": "Dans quel pays se joue la Premier League ?",
+      "clue": "Quel est le maillot national de couleur rouge et blanc à damiers ?",
       "answers": [
-        "angleterre",
-        "royaume-uni",
-        "england"
+        "Croatie"
       ]
     },
     {
-      "clue": "Quel est le club rival du Real Madrid à Madrid ?",
+      "clue": "Quel joueur est connu pour ses célébrations acrobatiques et a joué à Tottenham ?",
       "answers": [
-        "atletico madrid",
-        "atlético"
+        "Son Heung-Min",
+        "Son"
       ]
     },
     {
-      "clue": "Quel joueur a quitté le PSG pour le Real Madrid en 2024 ?",
+      "clue": "Où joue Kevin De Bruyne en 2025 ?",
       "answers": [
-        "mbappé",
-        "kylian mbappé"
+        "Manchester City",
+        "City"
       ]
     },
     {
-      "clue": "Quel club français joue au Groupama Stadium ?",
+      "clue": "Quel est le club principal de Neymar en 2025 ?",
       "answers": [
-        "lyon",
-        "olympique lyonnais"
+        "Santos",
+        "Santos FC"
       ]
     },
     {
-      "clue": "Combien de Ballons d'Or Cristiano Ronaldo a-t-il remportés ?",
+      "clue": "Quelle nation est surnommée \"les Three Lions\" ?",
       "answers": [
-        "5",
-        "cinq"
+        "Angleterre",
+        "England"
       ]
     },
     {
-      "clue": "Quel club allemand a dominé la Bundesliga entre 2010 et 2023 ?",
+      "clue": "Quel stade est le domicile du Real Madrid ?",
       "answers": [
-        "bayern munich",
-        "bayern"
+        "Santiago Bernabéu",
+        "Bernabeu"
       ]
     },
     {
-      "clue": "Quel pays a gagné l’Euro 2016 ?",
+      "clue": "Quel pays a remporté la CDM féminine en 2023 ?",
       "answers": [
-        "portugal"
+        "Espagne"
       ]
     },
     {
-      "clue": "Quel club est surnommé les Reds ?",
+      "clue": "Quel joueur français est célèbre pour son doublé contre l’Argentine en finale 2022 ?",
       "answers": [
-        "liverpool"
+        "Kylian Mbappé",
+        "Mbappé"
       ]
     },
     {
-      "clue": "Quel joueur est connu pour la célébration 'griddy' ?",
+      "clue": "Qui est l'entraîneur du PSG en 2025 ?",
       "answers": [
-        "dembele",
-        "ousmane dembele"
+        "Luis Enrique"
       ]
     },
     {
-      "clue": "Quel club a pour mascotte un bouc ?",
+      "clue": "Quel club est surnommé « les Skyblues » ?",
       "answers": [
-        "cologne",
-        "fc cologne"
+        "Manchester City",
+        "City"
       ]
     },
     {
-      "clue": "Quel gardien a joué pour Chelsea et le Real Madrid ?",
+      "clue": "Qui porte le numéro 10 en sélection argentine en 2025 ?",
       "answers": [
-        "courtois",
-        "thibaut courtois"
+        "Lionel Messi",
+        "Messi"
       ]
     },
     {
-      "clue": "Quel pays a remporté la Copa América 2021 ?",
+      "clue": "Quel joueur a quitté Dortmund pour le Real Madrid en 2023 ?",
       "answers": [
-        "argentine"
+        "Jude Bellingham",
+        "Bellingham"
       ]
     },
     {
-      "clue": "Combien de fois le Brésil a-t-il gagné la Coupe du Monde ?",
+      "clue": "Où joue Karim Benzema en 2025 ?",
       "answers": [
-        "5",
-        "cinq"
+        "Al Ittihad"
       ]
     },
     {
-      "clue": "Qui est le capitaine de l’équipe de France en 2025 ?",
+      "clue": "Dans quel pays se trouve le club du Bayern Munich ?",
       "answers": [
-        "mbappé",
-        "kylian mbappé"
+        "Allemagne",
+        "Germany"
       ]
     },
     {
-      "clue": "Quel joueur a remporté le Soulier d'Or européen en 2023 ?",
+      "clue": "Qui a remporté la Coupe du Monde 2018 ?",
       "answers": [
-        "haaland",
-        "erling haaland"
+        "France"
       ]
     },
     {
-      "clue": "Quel club joue ses matchs au Signal Iduna Park ?",
+      "clue": "Quel est le surnom de l’équipe de France ?",
       "answers": [
-        "borussia dortmund",
-        "dortmund"
+        "Les Bleus"
       ]
     },
     {
-      "clue": "Quel joueur est connu pour sa coiffure excentrique et a joué à la Juve ?",
+      "clue": "Quel joueur est célèbre pour son duo avec Messi au Barça ?",
       "answers": [
-        "pogba",
-        "paul pogba"
+        "Luis Suarez",
+        "Suarez"
       ]
     },
     {
-      "clue": "Dans quel pays joue Al-Nassr ?",
+      "clue": "Qui est l’attaquant vedette de la Norvège en 2025 ?",
       "answers": [
-        "arabie saoudite",
-        "saudi arabia"
+        "Erling Haaland",
+        "Haaland"
       ]
     },
     {
-      "clue": "Qui est l’actuel sélectionneur de l’équipe de France masculine en 2025 ?",
+      "clue": "Quel club joue au stade Anfield ?",
       "answers": [
-        "didier deschamps",
-        "deschamps"
+        "Liverpool"
       ]
     },
     {
-      "clue": "Quel club est surnommé les Gunners ?",
+      "clue": "Qui est l’entraîneur de Manchester City en 2025 ?",
       "answers": [
-        "arsenal"
+        "Pep Guardiola",
+        "Guardiola"
       ]
     },
     {
-      "clue": "Quel stade accueille les matchs du FC Barcelone ?",
+      "clue": "Quel club espagnol joue au stade Wanda Metropolitano ?",
       "answers": [
-        "camp nou"
+        "Atletico Madrid",
+        "Atlético"
       ]
     },
     {
-      "clue": "Quel club espagnol joue en jaune et est surnommé le sous-marin jaune ?",
+      "clue": "Quel club a été sacré champion de Ligue 1 en 2023 ?",
       "answers": [
-        "villarreal"
+        "Psg",
+        "Paris Saint-Germain"
       ]
     },
     {
-      "clue": "Quel joueur espagnol a été capitaine du Real Madrid pendant des années ?",
+      "clue": "Quel joueur anglais est capitaine de Tottenham en 2025 ?",
       "answers": [
-        "sergio ramos",
-        "ramos"
+        "Son Heung-Min",
+        "Son"
+
       ]
     },
     {
-      "clue": "Qui est le meilleur buteur de l’histoire de l’Equipe de France ?",
+      "clue": "Dans quel pays se déroule la Copa Libertadores ?",
       "answers": [
-        "olivier giroud",
-        "giroud"
+        "Amérique Du Sud",
+        "Sudamérica"
       ]
     },
     {
-      "clue": "Qui a été Ballon d'Or en 2022 ?",
+      "clue": "Quel joueur a souvent été comparé à Messi pour son style à Naples ?",
       "answers": [
-        "karim benzema",
-        "benzema"
+        "Kvaratskhelia"
       ]
     },
     {
-      "clue": "Quel ancien joueur du Barça est aujourd'hui entraîneur du club ?",
+      "clue": "Qui porte le brassard au PSG en 2025 ?",
       "answers": [
-        "xavi",
-        "xavi hernandez"
+        "Marquinhos"
       ]
     },
     {
-      "clue": "Dans quel club évolue Mohamed Salah en 2025 ?",
+      "clue": "Quel club turc est connu pour ses supporters passionnés et le stade Türk Telekom ?",
       "answers": [
-        "liverpool"
+        "Galatasaray"
       ]
     },
     {
-      "clue": "Quel joueur marocain joue latéral droit au PSG en 2025 ?",
+      "clue": "Quel joueur a remporté le Ballon d’Or en 2023 ?",
       "answers": [
-        "achraf hakimi",
-        "hakimi"
+        "Lionel Messi",
+        "Messi"
       ]
     },
     {
-      "clue": "Quel club portugais a formé Cristiano Ronaldo ?",
+      "clue": "Quel pays a remporté la Coupe d’Afrique des Nations en 2019 ?",
       "answers": [
-        "sporting",
-        "sporting lisbonne"
+        "Algérie"
       ]
     },
     {
-      "clue": "Quel joueur brésilien est célèbre pour ses roulettes et son sourire ?",
+      "clue": "Dans quel club joue Pedri en 2025 ?",
       "answers": [
-        "ronaldinho"
+        "Fc Barcelone",
+        "Barcelone",
+        "Barça"
       ]
     },
     {
-      "clue": "Quel joueur argentin a joué à Manchester City et à Barcelone ?",
+      "clue": "Quel joueur est souvent associé au numéro 6 au milieu de terrain ?",
       "answers": [
-        "sergio aguero",
-        "aguero"
+        "Thiago Motta",
+        "Busquets",
+        "Kimmich"
       ]
     },
     {
-      "clue": "Quel club a été relégué de Ligue 1 en 2023 ?",
+      "clue": "Qui a gagné la Ligue Europa en 2024 ?",
       "answers": [
-        "ajaccio"
+        "Atalanta"
       ]
     },
     {
-      "clue": "Quel est le surnom du stade de l’OM ?",
+      "clue": "Quel est le club rival de Fenerbahçe ?",
       "answers": [
-        "velodrome",
-        "stade velodrome"
+        "Galatasaray"
       ]
     },
     {
-      "clue": "Quel joueur est célèbre pour avoir marqué en finale de la CDM 1998 ?",
+      "clue": "Dans quel club évolue Alphonso Davies en 2025 ?",
       "answers": [
-        "zinedine zidane",
-        "zidane"
+        "Bayern Munich",
+        "Bayern"
       ]
     },
     {
-      "clue": "Quel pays a été finaliste de la CDM 2018 ?",
+      "clue": "Quel club a remporté la Ligue des Champions en 2014 ?",
       "answers": [
-        "croatie"
+        "Real Madrid"
       ]
     },
     {
-      "clue": "Quel joueur a remporté la Ligue Europa avec Séville en 2023 ?",
+      "clue": "Qui est le capitaine du Portugal en 2025 ?",
       "answers": [
-        "jesus navas",
-        "navas"
+        "Cristiano Ronaldo",
+        "Ronaldo","CR7"
       ]
     },
     {
-      "clue": "Quel club écossais est rival du Celtic ?",
+      "clue": "Dans quel club joue Luka Modric en 2025 ?",
       "answers": [
-        "rangers",
-        "glasgow rangers"
+        "Real Madrid"
       ]
     },
     {
-      "clue": "Qui a marqué en finale de la LDC 2023 pour City ?",
+      "clue": "Quel pays a remporté la Coupe du Monde 2006 ?",
       "answers": [
-        "rodri"
+        "Italie"
       ]
     },
     {
-      "clue": "Quel club anglais a pour surnom 'The Blues' ?",
+      "clue": "Quel joueur français a été transféré à Chelsea en 2022 ?",
       "answers": [
-        "chelsea"
+        "Wesley Fofana",
+        "Fofana"
       ]
     },
     {
-      "clue": "Quel joueur sénégalais a joué pour Liverpool puis le Bayern ?",
+      "clue": "Quel est le club rival de l’AS Roma ?",
       "answers": [
-        "sadio mane",
-        "mané"
+        "Lazio",
+        "Lazio Rome"
       ]
     },
     {
-      "clue": "Qui est l’entraîneur du Real Madrid en 2025 ?",
+      "clue": "Quel joueur argentin joue pour Benfica en 2025 ?",
       "answers": [
-        "ancelotti",
-        "carlo ancelotti"
+        "Angel Di Maria",
+        "Di Maria"
       ]
     },
     {
-      "clue": "Quel club espagnol est basé à Séville ?",
+      "clue": "Quel pays est célèbre pour son maillot vert et or ?",
       "answers": [
-        "sevilla",
-        "séville"
+        "Brésil"
       ]
     },
     {
-      "clue": "Dans quel club évolue Neymar en 2025 ?",
+      "clue": "Quel club anglais a un logo avec un canon ?",
       "answers": [
-        "al hilal"
+        "Arsenal"
       ]
     },
     {
-      "clue": "Quel est le surnom de l’équipe nationale italienne ?",
+      "clue": "Quel joueur du PSG est d'origine marocaine et joue latéral droit ?",
       "answers": [
-        "la squadra azzurra",
-        "azzurri"
-      ]
-    },
-    {
-      "clue": "Quel joueur portugais a signé à Al-Nassr en 2023 ?",
-      "answers": [
-        "cristiano ronaldo",
-        "ronaldo"
-      ]
-    },
-    {
-      "clue": "Qui a été l'entraîneur du PSG en 2023 ?",
-      "answers": [
-        "luis enrique"
-      ]
-    },
-    {
-      "clue": "Quel pays est connu pour ses maillots orange en football ?",
-      "answers": [
-        "pays-bas",
-        "pays bas",
-        "pays-bas"
-      ]
-    },
-    {
-      "clue": "Quel joueur français a joué pour Arsenal et Chelsea ?",
-      "answers": [
-        "olivier giroud",
-        "giroud"
-      ]
-    },
-    {
-      "clue": "Quel club espagnol joue au stade Benito Villamarín ?",
-      "answers": [
-        "real betis",
-        "betis"
-      ]
-    },
-    {
-      "clue": "Quel joueur est célèbre pour sa panenka en finale de l’Euro 1976 ?",
-      "answers": [
-        "antonin panenka",
-        "panenka"
-      ]
-    },
-    {
-      "clue": "Dans quel club joue Antoine Griezmann en 2025 ?",
-      "answers": [
-        "atletico madrid",
-        "atlético"
-      ]
-    },
-    {
-      "clue": "Quel est le club rival historique du FC Barcelone ?",
-      "answers": [
-        "real madrid"
-      ]
-    },
-    {
-      "clue": "Qui a inscrit un triplé contre l’Argentine en finale de la CDM 2022 ?",
-      "answers": [
-        "mbappé",
-        "kylian mbappé"
-      ]
-    },
-    {
-      "clue": "Quel club est surnommé 'les Dogues' en Ligue 1 ?",
-      "answers": [
-        "lille",
-        "losc"
-      ]
-    },
-    {
-      "clue": "Quel est le club d'origine de Riyad Mahrez ?",
-      "answers": [
-        "le havre"
-      ]
-    },
-    {
-      "clue": "Quel club anglais est basé à Newcastle ?",
-      "answers": [
-        "newcastle united",
-        "newcastle"
-      ]
-    },
-    {
-      "clue": "Quel pays a gagné la Coupe d’Afrique des Nations 2021 ?",
-      "answers": [
-        "senegal",
-        "sénégal"
-      ]
-    },
-    {
-      "clue": "Dans quel club a évolué Zlatan Ibrahimović entre 2016 et 2018 ?",
-      "answers": [
-        "manchester united"
-      ]
-    },
-    {
-      "clue": "Quel joueur uruguayen a été partenaire de Messi au Barça ?",
-      "answers": [
-        "luis suarez",
-        "suarez"
-      ]
-    },
-    {
-      "clue": "Quel club français est surnommé 'les Verts' ?",
-      "answers": [
-        "saint-etienne",
-        "asse"
-      ]
-    },
-    {
-      "clue": "Quel club écossais est surnommé 'les Bhoys' ?",
-      "answers": [
-        "celtic",
-        "celtic glasgow"
-      ]
-    },
-    {
-      "clue": "Quel joueur est associé au numéro 7 à Manchester United ?",
-      "answers": [
-        "ronaldo",
-        "cristiano ronaldo"
-      ]
-    },
-    {
-      "clue": "Quel club joue ses matchs au stade Louis-II ?",
-      "answers": [
-        "monaco",
-        "as monaco"
-      ]
-    },
-    {
-      "clue": "Quel joueur français est gardien au Milan AC en 2025 ?",
-      "answers": [
-        "mike maignan",
-        "maignan"
-      ]
-    },
-    {
-      "clue": "Quel pays a remporté la Coupe du Monde 1998 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Qui a inscrit un doublé pour l’Italie en finale de l’Euro 2020 ?",
-      "answers": [
-        "bonucci"
-      ]
-    },
-    {
-      "clue": "Dans quel club joue Lautaro Martínez en 2025 ?",
-      "answers": [
-        "inter",
-        "inter milan"
-      ]
-    },
-    {
-      "clue": "Quel club a remporté la Supercoupe d’Europe 2023 ?",
-      "answers": [
-        "manchester city"
-      ]
-    },
-    {
-      "clue": "Quel joueur est célèbre pour ses dribbles et joue à Naples en 2025 ?",
-      "answers": [
-        "kvaratskhelia"
-      ]
-    },
-    {
-      "clue": "Quel club a remporté la Ligue Europa Conférence en 2022 ?",
-      "answers": [
-        "roma",
-        "as roma"
-      ]
-    },
-    {
-      "clue": "Quel joueur français joue au Real Sociedad en 2025 ?",
-      "answers": [
-        "mohamed-ali cho",
-        "cho"
-      ]
-    },
-    {
-      "clue": "Quel joueur algérien a remporté la CAN en 2019 ?",
-      "answers": [
-        "riyad mahrez",
-        "mahrez"
-      ]
-    },
-    {
-      "clue": "Quel club anglais est basé à Birmingham ?",
-      "answers": [
-        "aston villa"
-      ]
-    },
-    {
-      "clue": "Quel joueur ghanéen a joué pour Chelsea et le Real Madrid ?",
-      "answers": [
-        "michael essien",
-        "essien"
-      ]
-    },
-    {
-      "clue": "Quel joueur polonais est attaquant du Barça en 2025 ?",
-      "answers": [
-        "robert lewandowski",
-        "lewandowski"
-      ]
-    },
-    {
-      "clue": "Quel joueur a porté le numéro 7 à la Juventus ?",
-      "answers": [
-        "cristiano ronaldo",
-        "ronaldo"
-      ]
-    },
-    {
-      "clue": "Quel pays est surnommé 'la Roja' ?",
-      "answers": [
-        "espagne"
-      ]
-    },
-    {
-      "clue": "Quel joueur a remporté le Trophée Kopa en 2023 ?",
-      "answers": [
-        "jude bellingham",
-        "bellingham"
-      ]
-    },
-    {
-      "clue": "Quel pays a remporté la CAN 2023 ?",
-      "answers": [
-        "côte d’ivoire",
-        "cote d’ivoire"
-      ]
-    },
-    {
-      "clue": "Quel club joue au stade de la Beaujoire ?",
-      "answers": [
-        "nantes",
-        "fc nantes"
-      ]
-    },
-    {
-      "clue": "Quel est le rival historique de Boca Juniors ?",
-      "answers": [
-        "river plate"
-      ]
-    },
-    {
-      "clue": "Quel club autrichien est connu pour sa formation ?",
-      "answers": [
-        "red bull salzburg",
-        "salzburg"
-      ]
-    },
-    {
-      "clue": "Quel joueur belge est célèbre pour ses dribbles à Chelsea ?",
-      "answers": [
-        "eden hazard",
-        "hazard"
-      ]
-    },
-    {
-      "clue": "Quel club portugais joue au stade de la Luz ?",
-      "answers": [
-        "benfica"
-      ]
-    },
-    {
-      "clue": "Quel joueur brésilien est milieu au Real Madrid en 2025 ?",
-      "answers": [
-        "casemiro"
-      ]
-    },
-    {
-      "clue": "Quel ancien joueur du Real est maintenant entraîneur à Leverkusen ?",
-      "answers": [
-        "xabi alonso"
-      ]
-    },
-    {
-      "clue": "Quel club a pour surnom 'les Aiglons' ?",
-      "answers": [
-        "nice",
-        "ogc nice"
-      ]
-    },
-    {
-      "clue": "Quel joueur a été capitaine du PSG avant Marquinhos ?",
-      "answers": [
-        "thiago silva"
-      ]
-    },
-    {
-      "clue": "Quel joueur camerounais a été légende du Barça et de l’Inter ?",
-      "answers": [
-        "samuel eto'o",
-        "eto'o",
-        "etoo"
-      ]
-    },
-    {
-      "clue": "Quel club espagnol est surnommé 'les Che' ?",
-      "answers": [
-        "valence",
-        "valencia"
-      ]
-    },
-    {
-      "clue": "Quel joueur marocain a été élu révélation à la CDM 2022 ?",
-      "answers": [
-        "sofyan amrabat",
-        "amrabat"
-      ]
-    },
-    {
-      "clue": "Quel joueur a porté le brassard de capitaine du Bayern en 2023 ?",
-      "answers": [
-        "manuel neuer",
-        "neuer"
+        "Achraf Hakimi",
+        "Hakimi"
       ]
     }
   ],
   "intermediaire": [
+    {
+      "clue": "Quel club a remporté la Ligue des Champions en 2004 avec José Mourinho ?",
+      "answers": [
+        "Porto"
+      ]
+    },
     {
       "clue": "Quel était le score de la finale de la Coupe du Monde 2006 entre la France et l’Italie ?",
       "answers": [
@@ -672,43 +349,37 @@
       ]
     },
     {
-      "clue": "Quel joueur allemand a marqué le but vainqueur en finale de la CDM 2014 ?",
+      "clue": "Quel joueur a joué pour Dortmund, le Bayern, puis le Barça ?",
       "answers": [
-        "mario gotze",
-        "gotze"
-      ]
-    },
-    {
-      "clue": "Quel club a remporté la Ligue des Champions en 2004 avec José Mourinho ?",
-      "answers": [
-        "porto"
+        "Robert Lewandowski",
+        "Lewandowski"
       ]
     },
     {
       "clue": "Qui a été finaliste du Ballon d’Or en 2023 aux côtés de Messi ?",
       "answers": [
-        "haaland",
-        "erling haaland"
+        "Erling Haaland",
+        "Haaland"
       ]
     },
     {
       "clue": "Quel joueur a raté un penalty en finale de la CDM 1994 ?",
       "answers": [
-        "roberto baggio",
-        "baggio"
+        "Roberto Baggio",
+        "Baggio"
       ]
     },
     {
       "clue": "Quel club a perdu la finale de la LDC 2019 contre Liverpool ?",
       "answers": [
-        "tottenham"
+        "Tottenham"
       ]
     },
     {
       "clue": "Quel gardien a été élu meilleur joueur de la CDM 2002 ?",
       "answers": [
-        "oliver kahn",
-        "kahn"
+        "Oliver Kahn",
+        "Kahn"
       ]
     },
     {
@@ -720,584 +391,281 @@
     {
       "clue": "Quel club espagnol a remporté la Ligue Europa en 2023 ?",
       "answers": [
-        "sevilla",
-        "séville"
+        "Sevilla",
+        "Séville"
       ]
     },
     {
       "clue": "Qui a marqué le but vainqueur en finale de la LDC 2022 ?",
       "answers": [
-        "vinicius",
-        "vinicius jr"
+        "Vinicius",
+        "Vinicius Jr"
       ]
     },
     {
       "clue": "Quel joueur a joué pour Arsenal, Barcelone, puis Chelsea ?",
       "answers": [
-        "cesc fabregas",
-        "fabregas"
+        "Cesc Fabregas",
+        "Fabregas"
       ]
     },
     {
       "clue": "Quel club belge joue au stade Jan Breydel ?",
       "answers": [
-        "club brugge",
-        "bruges"
+        "Club Brugge",
+        "Bruges"
       ]
     },
     {
       "clue": "Quel joueur brésilien a joué pour le Real Madrid, Arsenal, et Chelsea ?",
       "answers": [
-        "willian"
+        "Willian"
       ]
     },
     {
       "clue": "Quel club a terminé dernier de la Ligue 1 en 2022/23 ?",
       "answers": [
-        "ajaccio"
+        "Ajaccio"
       ]
     },
     {
       "clue": "Quel est le surnom de la sélection uruguayenne ?",
       "answers": [
-        "la celeste"
+        "La Celeste"
       ]
     },
     {
-      "clue": "Combien de LDC a remporté l’Ajax Amsterdam ?",
+      "clue": "Quel club a battu la Juventus en finale de LDC 2015 ?",
       "answers": [
-        "4",
-        "quatre"
+        "Barcelone",
+        "Fc Barcelone"
       ]
     },
     {
-      "clue": "Quel joueur a été transféré du Barça à l’Inter Miami en 2023 ?",
+      "clue": "Quel était le score de la finale de l’Euro 2004 entre la Grèce et le Portugal ?",
       "answers": [
-        "sergio busquets",
-        "busquets"
+        "1-0"
       ]
     },
     {
-      "clue": "Quel défenseur central a marqué en finale de l’Euro 2016 ?",
+      "clue": "Quel joueur a joué pour Lyon, Arsenal, puis Villarreal ?",
       "answers": [
-        "pepe"
+        "Alexandre Lacazette",
+        "Lacazette"
       ]
     },
     {
-      "clue": "Qui était sélectionneur de l’Allemagne pendant la CDM 2014 ?",
+      "clue": "Qui était capitaine de l’Allemagne lors de la CDM 2010 ?",
       "answers": [
-        "joachim löw",
-        "low"
+        "Philip Lahm",
+        "Lahm"
       ]
     },
     {
-      "clue": "Quel joueur a été capitaine de l’Angleterre lors de l’Euro 2020 ?",
+      "clue": "Quel joueur a été formé au Benfica avant de briller à City ?",
       "answers": [
-        "harry kane"
+        "Rubén Dias",
+        "Ruben Dias"
       ]
     },
     {
-      "clue": "Quel gardien a remporté la LDC avec deux clubs différents ?",
+      "clue": "Quelle nation a remporté la CAN en 1996 ?",
       "answers": [
-        "keylor navas",
-        "navas"
+        "Afrique Du Sud"
       ]
     },
     {
-      "clue": "Quel pays a été finaliste de l’Euro 2020 ?",
+      "clue": "Quel entraîneur a été remercié par le Barça en 2021 ?",
       "answers": [
-        "angleterre"
+        "Ronald Koeman",
+        "Koeman"
       ]
     },
     {
-      "clue": "Quel entraîneur a dirigé Chelsea et le Real Madrid ?",
+      "clue": "Quel joueur croate a remporté la Ligue des Champions avec deux clubs différents ?",
       "answers": [
-        "mourinho",
-        "josé mourinho"
+        "Mateo Kovacic",
+        "Kovacic"
       ]
     },
     {
-      "clue": "Quel joueur a porté le numéro 10 au Brésil en CDM 2014 ?",
+      "clue": "Quel club français a disputé la finale de la Coupe de l’UEFA en 2004 ?",
       "answers": [
-        "neymar"
+        "Olympique De Marseille",
+        "Om"
       ]
     },
     {
-      "clue": "Quel club allemand a été en finale de LDC en 2013 contre le Bayern ?",
+      "clue": "Quel gardien espagnol a joué au Real Madrid et à Porto ?",
       "answers": [
-        "dortmund"
+        "Iker Casillas",
+        "Casillas"
       ]
     },
     {
-      "clue": "Quel joueur espagnol a joué à Liverpool puis au Bayern ?",
+      "clue": "Quel est le record de buts en une saison de Ligue 1 ?",
       "answers": [
-        "thiago alcantara",
-        "thiago"
+        "44"
       ]
     },
     {
-      "clue": "Quel club français a gagné la Coupe Intertoto en 2005 ?",
+      "clue": "Quel joueur a marqué en demi-finale pour l’Allemagne en CDM 2010 contre l’Argentine ?",
       "answers": [
-        "lens"
+        "Miroslav Klose",
+        "Klose"
       ]
     },
     {
-      "clue": "Quel club italien est surnommé 'la Vieille Dame' ?",
+      "clue": "Qui a gagné la Supercoupe d’Europe en 2024 ?",
       "answers": [
-        "juventus",
-        "juve"
+        "Manchester City",
+        "City"
       ]
     },
     {
-      "clue": "Quel pays a remporté l’Euro 2008 et 2012 ?",
+      "clue": "Quel joueur brésilien est devenu capitaine de l’OL en 2022 ?",
       "answers": [
-        "espagne"
+        "Lucas Paquetá",
+        "Paqueta"
       ]
     },
     {
-      "clue": "Qui a inscrit le but vainqueur de l’Euro 2016 ?",
+      "clue": "Quel ancien joueur de l’Inter est devenu sélectionneur de l’Italie ?",
       "answers": [
-        "eder"
+        "Simone Inzaghi",
+        "Inzaghi"
       ]
     },
     {
-      "clue": "Quel club a été champion de Ligue 1 en 2021 ?",
+      "clue": "Quel pays a été le premier à gagner deux Coupes du Monde ?",
       "answers": [
-        "lille"
+        "Italie"
       ]
     },
     {
-      "clue": "Quel joueur a été formé au Havre et est devenu star à Leicester puis City ?",
+      "clue": "Quel joueur né au Ghana a joué pour l’Espagne et le Bayern ?",
       "answers": [
-        "riyad mahrez",
-        "mahrez"
+        "Jerome Boateng",
+        "Boateng"
       ]
     },
     {
-      "clue": "Quel entraîneur a remporté la LDC 2023 avec City ?",
+      "clue": "Quel entraîneur a succédé à Didier Deschamps dans le passé ?",
       "answers": [
-        "pep guardiola",
-        "guardiola"
+        "Zinedine Zidane",
+        "Zidane"
       ]
     },
     {
-      "clue": "Quel joueur a joué à Dortmund, Bayern Munich, puis au Barça ?",
+      "clue": "Quel joueur de Ligue 1 a marqué un triplé en Ligue Europa en 2022 ?",
       "answers": [
-        "lewandowski"
+        "Wissam Ben Yedder",
+        "Ben Yedder"
       ]
     },
     {
-      "clue": "Quel joueur néerlandais a joué au Bayern, au Real et à Chelsea ?",
+      "clue": "Quel est le club formateur de Dayot Upamecano ?",
       "answers": [
-        "robben",
-        "arjen robben"
+        "Valenciennes"
       ]
     },
     {
-      "clue": "Qui a été le meilleur buteur de la CDM 2022 ?",
+      "clue": "Qui a été élu meilleur jeune joueur de l’Euro 2020 ?",
       "answers": [
-        "mbappé",
-        "kylian mbappé"
+        "Pedri"
       ]
     },
     {
-      "clue": "Quel club espagnol a été relégué en 2023 ?",
+      "clue": "Quel joueur a quitté Benfica pour Liverpool en 2022 ?",
       "answers": [
-        "elche"
+        "Darwin Nuñez",
+        "Nunez"
       ]
     },
     {
-      "clue": "Quel club turc est rival de Fenerbahce ?",
+      "clue": "Quelle légende espagnole a joué à Arsenal, Villarreal et l’OM ?",
       "answers": [
-        "galatasaray"
+        "Santi Cazorla",
+        "Cazorla"
       ]
     },
     {
-      "clue": "Quel joueur portugais a joué pour Manchester United et l’Inter ?",
+      "clue": "Quel est le score exact de la finale de la LDC 2021 ?",
       "answers": [
-        "bruno fernandes",
-        "fernandes"
+        "1-0"
       ]
     },
     {
-      "clue": "Quel joueur a disputé 5 Coupes du Monde avec le Mexique ?",
+      "clue": "Quel joueur africain a été capitaine de West Ham en 2023 ?",
       "answers": [
-        "guillermo ochoa",
-        "ochoa"
+        "Mohammed Kudus",
+        "Kudus"
       ]
     },
     {
-      "clue": "Quel est le nom du championnat saoudien ?",
+      "clue": "Quel joueur a inscrit un but de la tête en finale de la CDM 1998 ?",
       "answers": [
-        "saudi pro league"
+        "Zinedine Zidane",
+        "Zidane"
       ]
     },
     {
-      "clue": "Quel joueur a été capitaine de l’Italie en CDM 2006 ?",
+      "clue": "Quel club italien a remporté la Ligue Europa en 1999 ?",
       "answers": [
-        "cannavaro",
-        "fabio cannavaro"
+        "Parme"
       ]
     },
     {
-      "clue": "Quel club ukrainien est basé à Donetsk ?",
+      "clue": "Quel joueur belge a été capitaine de Manchester City ?",
       "answers": [
-        "shakhtar donetsk",
-        "shakhtar"
+        "Vincent Kompany",
+        "Kompany"
       ]
     },
     {
-      "clue": "Quel club argentin a révélé Lionel Messi ?",
+      "clue": "Quel était le score de la finale de l’Euro 2016 ?",
       "answers": [
-        "newell's old boys",
-        "newells"
+        "1-0"
       ]
     },
     {
-      "clue": "Quel joueur belge a joué pour Lille puis Milan ?",
+      "clue": "Quel joueur brésilien a joué pour Barcelone et a signé à l’Arabie saoudite en 2023 ?",
       "answers": [
-        "saelemaekers"
+        "Malcom"
       ]
     },
     {
-      "clue": "Quel club suisse est basé à Berne ?",
+      "clue": "Quel pays a remporté la Copa América en 2007 ?",
       "answers": [
-        "young boys"
+        "Brésil"
       ]
     },
     {
-      "clue": "Quel joueur croate est milieu au Real Madrid en 2025 ?",
+      "clue": "Quel joueur espagnol a remporté l’Euro 2008, 2012 et la CDM 2010 ?",
       "answers": [
-        "luka modric",
-        "modric"
+        "Iker Casillas",
+        "Casillas"
       ]
     },
     {
-      "clue": "Quel gardien a remporté la CAN avec le Sénégal ?",
+      "clue": "Quel entraîneur a succédé à Zinédine Zidane au Real Madrid en 2021 ?",
       "answers": [
-        "edouard mendy",
-        "mendy"
+        "Carlo Ancelotti",
+        "Ancelotti"
       ]
     },
     {
-      "clue": "Quel joueur argentin a signé à Chelsea en 2023 ?",
+      "clue": "Quel joueur ivoirien a été Ballon d'Or africain en 2006 ?",
       "answers": [
-        "enzo fernandez",
-        "enzo"
+        "Didier Drogba",
+        "Drogba"
       ]
     },
     {
-      "clue": "Quel joueur brésilien a marqué lors de la finale de la CDM 2002 ?",
+      "clue": "Quel club français a disputé une demi-finale de C1 en 1995 ?",
       "answers": [
-        "ronaldo"
-      ]
-    },
-    {
-      "clue": "Quel club a remporté la Ligue Europa en 2021 ?",
-      "answers": [
-        "villarreal"
-      ]
-    },
-    {
-      "clue": "Quel pays a perdu la finale de la CDM 1998 ?",
-      "answers": [
-        "brésil"
-      ]
-    },
-    {
-      "clue": "Quel joueur espagnol a marqué un doublé en finale de l’Euro 2012 ?",
-      "answers": [
-        "david silva"
-      ]
-    },
-    {
-      "clue": "Quel club italien a gagné la LDC en 1996 ?",
-      "answers": [
-        "juventus"
-      ]
-    },
-    {
-      "clue": "Quel joueur néerlandais a été célèbre pour ses frappes puissantes au Bayern ?",
-      "answers": [
-        "robben",
-        "arjen robben"
-      ]
-    },
-    {
-      "clue": "Quel club français a été demi-finaliste de la LDC en 2020 ?",
-      "answers": [
-        "lyon",
-        "olympique lyonnais"
-      ]
-    },
-    {
-      "clue": "Quel joueur allemand a marqué en finale de CDM 1990 ?",
-      "answers": [
-        "andreas brehme",
-        "brehme"
-      ]
-    },
-    {
-      "clue": "Quel club a terminé champion de Serie A en 2023 ?",
-      "answers": [
-        "naples",
-        "napoli"
-      ]
-    },
-    {
-      "clue": "Qui était le sélectionneur du Portugal à l’Euro 2016 ?",
-      "answers": [
-        "fernando santos"
-      ]
-    },
-    {
-      "clue": "Quel joueur a reçu le Ballon d'Or en 2006 ?",
-      "answers": [
-        "fabio cannavaro",
-        "cannavaro"
-      ]
-    },
-    {
-      "clue": "Quel joueur ivoirien a été capitaine de Chelsea ?",
-      "answers": [
-        "didier drogba",
-        "drogba"
-      ]
-    },
-    {
-      "clue": "Quel joueur français a raté un penalty en finale de la CDM 2006 ?",
-      "answers": [
-        "david trezeguet",
-        "trezeguet"
-      ]
-    },
-    {
-      "clue": "Quel club a perdu la finale de la LDC 2002 contre le Real Madrid ?",
-      "answers": [
-        "bayer leverkusen"
-      ]
-    },
-    {
-      "clue": "Quel joueur a marqué un but en finale de l’Euro 2000 ?",
-      "answers": [
-        "sylvain wiltord",
-        "wiltord"
-      ]
-    },
-    {
-      "clue": "Quel club a été finaliste de la Ligue Europa en 2022 ?",
-      "answers": [
-        "rangers",
-        "glasgow rangers"
-      ]
-    },
-    {
-      "clue": "Quel pays a remporté la CAN en 2013 ?",
-      "answers": [
-        "nigeria"
-      ]
-    },
-    {
-      "clue": "Quel joueur argentin a joué à l’OM et a remporté la Copa América 2021 ?",
-      "answers": [
-        "dario benedetto",
-        "benedetto"
-      ]
-    },
-    {
-      "clue": "Quel joueur italien a été suspendu pour dopage en 2023 ?",
-      "answers": [
-        "paul pogba",
-        "pogba"
-      ]
-    },
-    {
-      "clue": "Quel joueur a gagné la LDC avec 3 clubs différents ?",
-      "answers": [
-        "clarence seedorf",
-        "seedorf"
-      ]
-    },
-    {
-      "clue": "Quel pays a accueilli la Coupe du Monde en 1994 ?",
-      "answers": [
-        "etats-unis",
-        "états-unis",
-        "usa"
-      ]
-    },
-    {
-      "clue": "Quel club espagnol a remporté la Supercoupe en 2022 ?",
-      "answers": [
-        "real madrid"
-      ]
-    },
-    {
-      "clue": "Quel joueur a été capitaine de l’Argentine avant Messi ?",
-      "answers": [
-        "javier mascherano",
-        "mascherano"
-      ]
-    },
-    {
-      "clue": "Quel joueur brésilien a été Ballon d'Or en 2005 ?",
-      "answers": [
-        "ronaldinho"
-      ]
-    },
-    {
-      "clue": "Quel gardien a remporté la Coupe du Monde 1998 avec la France ?",
-      "answers": [
-        "fabien barthez",
-        "barthez"
-      ]
-    },
-    {
-      "clue": "Quel pays africain a atteint les demi-finales de la CDM 2022 ?",
-      "answers": [
-        "maroc"
-      ]
-    },
-    {
-      "clue": "Quel club italien a été relégué en Serie B pour scandale en 2006 ?",
-      "answers": [
-        "juventus"
-      ]
-    },
-    {
-      "clue": "Quel joueur espagnol a inscrit le but vainqueur en finale de l’Euro 2008 ?",
-      "answers": [
-        "fernando torres",
-        "torres"
-      ]
-    },
-    {
-      "clue": "Quel joueur croate a été Ballon d'Or en 2018 ?",
-      "answers": [
-        "luka modric",
-        "modric"
-      ]
-    },
-    {
-      "clue": "Quel joueur anglais est meilleur buteur de l'histoire de Tottenham ?",
-      "answers": [
-        "harry kane"
-      ]
-    },
-    {
-      "clue": "Quel club a gagné la Ligue Europa en 2019 ?",
-      "answers": [
-        "chelsea"
-      ]
-    },
-    {
-      "clue": "Quel joueur allemand a été connu pour ses frappes de loin et a joué à Arsenal ?",
-      "answers": [
-        "mesut ozil",
-        "özil"
-      ]
-    },
-    {
-      "clue": "Quel pays a battu l’Allemagne en finale de la CDM 1954 ?",
-      "answers": [
-        "hongrie"
-      ]
-    },
-    {
-      "clue": "Quel joueur a inscrit un triplé en demi-finale de LDC 2022 ?",
-      "answers": [
-        "benzema",
-        "karim benzema"
-      ]
-    },
-    {
-      "clue": "Quel club espagnol a été promu en Liga en 2023 ?",
-      "answers": [
-        "granada"
-      ]
-    },
-    {
-      "clue": "Quel joueur a été capitaine de la Belgique pendant l’Euro 2020 ?",
-      "answers": [
-        "eden hazard",
-        "hazard"
-      ]
-    },
-    {
-      "clue": "Quel joueur argentin est célèbre pour sa main en CDM 1986 ?",
-      "answers": [
-        "maradona",
-        "diego maradona"
-      ]
-    },
-    {
-      "clue": "Quel club grec a participé à la LDC 2022/23 ?",
-      "answers": [
-        "olympiakos"
-      ]
-    },
-    {
-      "clue": "Quel club turc est basé à Istanbul et a gagné la Super Lig en 2023 ?",
-      "answers": [
-        "galatasaray"
-      ]
-    },
-    {
-      "clue": "Quel joueur est le meilleur buteur de l’histoire de la LDC ?",
-      "answers": [
-        "cristiano ronaldo",
-        "ronaldo"
-      ]
-    },
-    {
-      "clue": "Quel pays a organisé l’Euro 2016 ?",
-      "answers": [
-        "france"
-      ]
-    },
-    {
-      "clue": "Quel joueur sénégalais a quitté Liverpool pour le Bayern en 2022 ?",
-      "answers": [
-        "sadio mane",
-        "mané"
-      ]
-    },
-    {
-      "clue": "Quel joueur espagnol a joué pour Villarreal et le PSG ?",
-      "answers": [
-        "paco alcacer"
-      ]
-    },
-    {
-      "clue": "Quel joueur allemand a marqué en finale de la CDM 2014 ?",
-      "answers": [
-        "mario gotze"
-      ]
-    },
-    {
-      "clue": "Quel club français a été relégué en Ligue 2 en 2023 ?",
-      "answers": [
-        "auxerre"
-      ]
-    },
-    {
-      "clue": "Quel joueur croate a joué pour l’Inter, le Real et Chelsea ?",
-      "answers": [
-        "mateo kovacic",
-        "kovacic"
-      ]
-    },
-    {
-      "clue": "Quel club portugais a remporté le championnat en 2023 ?",
-      "answers": [
-        "benfica"
-      ]
-    },
-    {
-      "clue": "Quel entraîneur a remporté la LDC avec Liverpool en 2019 ?",
-      "answers": [
-        "jurgen klopp",
-        "klopp"
+        "Nantes",
+        "Fc Nantes"
       ]
     }
   ]
