@@ -125,8 +125,8 @@
 
           <div class="card">
     <h1>Devine le joueur</h1>
-    <p>Streak: <span id="streak">0</span></p>
-    <p>Erreurs: <span id="errors">0</span></p>
+    <p>🔥: <span id="streak">0</span></p>
+    <p>✘: <span id="errors">0</span></p>
     <img id="player-img" class="player-img" src="players/messi.jpg" style="filter: blur(10px);" />
     <p id="status" class="status"></p>
     <input id="guess-input" class="input" type="text" placeholder="Nom du joueur" />
@@ -297,6 +297,7 @@
       input.value = "";
       errors = 0;
       errorsText.textContent = errors;
+        input.value = "";
       status = "playing";
       statusText.textContent = "";
       button.textContent = "Valider";
@@ -318,6 +319,7 @@
       if (rawGuess.includes('ı')) {
         errors++;
         errorsText.textContent = errors;
+        input.value = "";
         blurLevel -= 2;
         if (blurLevel <= 2) {
           img.style.filter = "none";
@@ -345,6 +347,7 @@
       } else {
         errors++;
         errorsText.textContent = errors;
+        input.value = "";
         blurLevel -= 2;
         if (blurLevel <= 2) {
           img.style.filter = "none";

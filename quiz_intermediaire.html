@@ -127,8 +127,8 @@
           
   <div class="card">
     <h1>Quiz Niveau Intermediaire</h1>
-    <p>Streak: <span id="streak">0</span></p>
-    <p>Erreurs: <span id="errors">0</span></p>
+    <p>🔥: <span id="streak">0</span></p>
+    <p>✘: <span id="errors">0</span></p>
     <div class="clue" id="clue">Chargement...</div>
     <p id="status" class="status"></p>
     <input id="guess-input" class="input" type="text" placeholder="Votre réponse..." />
@@ -185,11 +185,14 @@
         button.textContent = "Suivant";
       } else {
         errors++;
+        input.value = "";
         errorsText.textContent = errors;
         if (errors >= 3) {
           statusText.textContent = "✘ C'était " + current.answers[0];
           statusText.style.color = "red";
           status = "lose";
+          streak = 0;
+          streakText.textContent = streak;
           button.textContent = "Recommencer";
           button.classList.add("red");
         }

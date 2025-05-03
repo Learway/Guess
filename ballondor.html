@@ -135,8 +135,8 @@
         
   <div class="card">
     <h1>Ballon d'Or</h1>
-    <p>Streak: <span id="streak">0</span></p>
-    <p>Erreurs: <span id="errors">0</span></p>
+    <p>🔥: <span id="streak">0</span></p>
+    <p>✘: <span id="errors">0</span></p>
     <div class="year" id="year">2023</div>
     <img id="player-img" src="" alt="Image du joueur" />
     <p id="status" class="status"></p>
@@ -217,6 +217,7 @@
       input.value = "";
       errors = 0;
       errorsText.textContent = errors;
+        input.value = "";
       status = "playing";
       statusText.textContent = "";
       button.textContent = "Valider";
@@ -250,6 +251,7 @@
       } else {
         errors++;
         errorsText.textContent = errors;
+        input.value = "";
         if (errors >= 3) {
           statusText.textContent = `Perdu ! C'était ${current.winner}`;
           statusText.style.color = "red";

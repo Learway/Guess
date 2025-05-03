@@ -74,69 +74,73 @@
     .switch-button:hover {
       background: #d1d5db;
     }
-  
-.menu-container {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  z-index: 1000;
-}
-.menu-toggle {
-  background: #3b82f6;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  font-size: 1.2rem;
-  user-select: none;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-.menu {
-  display: none;
-  flex-direction: column;
-  background: white;
-  margin-top: 0.5rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  overflow: hidden;
-}
-.menu a {
-  padding: 0.75rem 1rem;
-  text-decoration: none;
-  color: #111827;
-  font-weight: bold;
-  border-bottom: 1px solid #e5e7eb;
-}
-.menu a:hover {
-  background: #f3f4f6;
-}
-.menu a:last-child {
-  border-bottom: none;
-}
 
-</style>
+    .menu-container {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      z-index: 1000;
+    }
+    .menu-toggle {
+      background: #3b82f6;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-size: 1.2rem;
+      user-select: none;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .menu {
+      display: none;
+      flex-direction: column;
+      background: white;
+      margin-top: 0.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .menu a {
+      padding: 0.75rem 1rem;
+      text-decoration: none;
+      color: #111827;
+      font-weight: bold;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .menu a:hover {
+      background: #f3f4f6;
+    }
+    .menu a:last-child {
+      border-bottom: none;
+    }
+  </style>
 </head>
 <body>
   <div class="menu-container">
-  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-  <div class="menu" id="dropdown-menu">
-    <a href="devine.html">Devine le Joueur</a>
-    <a href="championleague.html">Ligue des Champions</a>
-    <a href="cdm.html">Coupe du Monde</a>
-    <a href="ballondor.html">Ballon d'Or</a>
-    <a href="quiz.html">Quiz Foot</a>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <div class="menu" id="dropdown-menu">
+      <a href="devine.html">Devine le Joueur</a>
+      <a href="championleague.html">Ligue des Champions</a>
+      <a href="cdm.html">Coupe du Monde</a>
+      <a href="ballondor.html">Ballon d'Or</a>
+      <a href="quiz.html">Quiz Foot</a>
+    </div>
   </div>
-</div>
 
-          <div class="card">
+  <div class="card">
     <h1>Coupe du Monde</h1>
-    <p>Streak: <span id="streak">0</span></p>
-    <p>Erreurs: <span id="errors">0</span></p>
+    <p>✘: <span id="errors">0</span></p>
     <div class="year" id="year">2022</div>
     <img id="team-img" src="" alt="Image du vainqueur" />
     <p id="status" class="status"></p>
     <input id="guess-input" class="input" type="text" placeholder="Nom du pays" />
     <button id="action-button" class="button">Valider</button>
+  </div>
+
+  <!-- Barre de progression -->
+  <div style="margin-top: 1rem; width: 100%; max-width: 400px;">
+    <progress id="progress-bar" value="0" max="11" style="width: 100%; height: 20px;"></progress>
+    <p style="text-align: center; font-weight: bold;" id="progress-text">0 / 11 éditions réussies</p>
   </div>
 
   <script>
@@ -155,6 +159,7 @@
     ];
 
     let current;
+    let used = [];
     let streak = 0;
     let errors = 0;
     let status = "playing";
@@ -167,6 +172,8 @@
     const streakText = document.getElementById("streak");
     const errorsText = document.getElementById("errors");
     const teamImg = document.getElementById("team-img");
+    const progressBar = document.getElementById("progress-bar");
+    const progressText = document.getElementById("progress-text");
 
     function normalize(str) {
       return str
@@ -178,14 +185,16 @@
     }
 
     function pickYear() {
-      if (remaining.length === 0) remaining = [...champions];
-      const index = Math.floor(Math.random() * remaining.length);
-      current = remaining[index];
-      remaining.splice(index, 1);
+      if (used.length === champions.length) used = [];
+      const available = champions.filter(c => !used.includes(c.year));
+      const index = Math.floor(Math.random() * available.length);
+      current = available[index];
+      used.push(current.year);
       yearDiv.textContent = `Qui a gagné la Coupe du Monde en ${current.year} ?`;
       input.value = "";
       errors = 0;
       errorsText.textContent = errors;
+        input.value = "";
       status = "playing";
       statusText.textContent = "";
       button.textContent = "Valider";
@@ -195,11 +204,21 @@
     }
 
     function checkGuess() {
+      if (status === "finished") {
+        streak = 0;
+        progressBar.value = 0;
+        progressText.textContent = `0 / 11 éditions réussies`;
+        status = "playing";
+        pickYear();
+        return;
+      }
+
       if (status !== "playing") {
         if (status === "win") pickYear();
         else if (status === "lose") {
           streak = 0;
-          streakText.textContent = streak;
+            progressBar.value = 0;
+          progressText.textContent = `0 / 11 éditions réussies`;
           pickYear();
         }
         return;
@@ -211,15 +230,28 @@
       if (aliases.includes(guess)) {
         statusText.textContent = current.winner;
         statusText.style.color = "green";
-        streak++;
-        streakText.textContent = streak;
-        status = "win";
-        button.textContent = "Suivant";
+
+        if (streak < 11) {
+          streak++;
+        }
+
+        progressBar.value = streak;
+        progressText.textContent = `${streak} / 11 éditions réussies`;
+
+        if (streak === 11) {
+          status = "finished";
+          button.textContent = "Recommencer";
+        } else {
+          status = "win";
+          button.textContent = "Suivant";
+        }
+
         teamImg.src = current.img;
         teamImg.style.display = "block";
       } else {
         errors++;
         errorsText.textContent = errors;
+        input.value = "";
         if (errors >= 3) {
           statusText.textContent = `Perdu ! C'était ${current.winner}`;
           statusText.style.color = "red";
@@ -237,15 +269,12 @@
       if (e.key === "Enter") checkGuess();
     });
 
+    function toggleMenu() {
+      const menu = document.getElementById("dropdown-menu");
+      menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+    }
+
     pickYear();
   </script>
-
-<script>
-  function toggleMenu() {
-    const menu = document.getElementById("dropdown-menu");
-    menu.style.display = menu.style.display === "flex" ? "none" : "flex";
-  }
-</script>
-
 </body>
 </html>

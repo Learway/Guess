@@ -62,7 +62,7 @@
       ]
     },
     {
-      "clue": "Quel est le club principal de Neymar en 2025 ?",
+      "clue": "Quel est le club de Neymar en 2025 ?",
       "answers": [
         "Santos",
         "Santos FC"
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "clue": "Quel joueur français est célèbre pour son doublé contre l’Argentine en finale 2022 ?",
+      "clue": "Quel joueur français est célèbre pour son triplé contre l’Argentine en finale 2022 ?",
       "answers": [
         "Kylian Mbappé",
         "Mbappé"
@@ -125,7 +125,7 @@
     {
       "clue": "Où joue Karim Benzema en 2025 ?",
       "answers": [
-        "Al Ittihad"
+        "Al Ittihad","Al-Ittihad"
       ]
     },
     {
@@ -184,7 +184,7 @@
     {
       "clue": "Quel club a été sacré champion de Ligue 1 en 2023 ?",
       "answers": [
-        "Psg",
+        "PSG",
         "Paris Saint-Germain"
       ]
     },
@@ -197,7 +197,7 @@
       ]
     },
     {
-      "clue": "Dans quel pays se déroule la Copa Libertadores ?",
+      "clue": "Dans quel continent se déroule la Copa Libertadores ?",
       "answers": [
         "Amérique Du Sud",
         "Sudamérica"
