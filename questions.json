@@ -417,7 +417,7 @@
       ]
     },
     {
-      "clue": "Quel joueur brésilien a joué pour le Real Madrid, Arsenal, et Chelsea ?",
+      "clue": "Quel joueur brésilien a joué pour le Fulham, Arsenal, et Chelsea ?",
       "answers": [
         "Willian"
       ]
@@ -448,7 +448,7 @@
       ]
     },
     {
-      "clue": "Quel joueur a joué pour Lyon, Arsenal, puis Villarreal ?",
+      "clue": "Quel joueur a joué pour Lyon, Arsenal, puis Lyon ?",
       "answers": [
         "Alexandre Lacazette",
         "Lacazette"
@@ -550,18 +550,18 @@
       ]
     },
     {
-      "clue": "Quel entraîneur a succédé à Didier Deschamps dans le passé ?",
+      "clue": "Quel joueur français a marqué en finale de la Ligue des Nations 2021 ?",
       "answers": [
-        "Zinedine Zidane",
-        "Zidane"
+        "Kylian Mbappé",
+        "Mbappé",
+        "Karim Benzema",
+        "Benzema"
       ]
     },
     {
-      "clue": "Quel joueur de Ligue 1 a marqué un triplé en Ligue Europa en 2022 ?",
-      "answers": [
-        "Wissam Ben Yedder",
-        "Ben Yedder"
-      ]
+      "clue": "Quels clubs ont disputé la finale de la Ligue Europa en 2022 ?",
+      "answers": ["Rangers", "Glasgow Rangers", "Eintracht Francfort", "Francfort"]
+    
     },
     {
       "clue": "Quel est le club formateur de Dayot Upamecano ?",
