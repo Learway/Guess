@@ -1,0 +1,187 @@
+{
+  "categories": [
+    "Ballon d'Or",
+    "Ligue des Champions",
+    "Coupe du Monde",
+    "Soulier d'Or",
+    "Copa América",
+    "Euro",
+    "CAN",
+    "Premier League",
+    "Liga",
+    "Serie A",
+    "Bundesliga",
+    "Ligue 1",
+    "Meilleur Buteur",
+    "Trophée Yachine",
+    "Liverpool",
+    "Arsenal",
+    "PSG",
+    "Chelsea",
+    "Manchester City",
+    "Real Madrid",
+    "Barcelone",
+    "Manchester United",
+    "Bayern",
+    "Dortmund",
+    "Inter Milan",
+    "AC Milan",
+    "Sporting CP",
+    "Porto FC",
+    "Napoli",
+    "Juventus"
+  ],
+  "players": [
+    {
+      "name": "Lionel Messi",
+      "img": "players/messi.jpg",
+      "achievements": [
+        "Ballon d'Or",
+        "Ligue des Champions",
+        "Coupe du Monde",
+        "Copa América",
+        "Meilleur Buteur",
+        "The Best FIFA"
+      ]
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "img": "players/ronaldo.webp",
+      "achievements": [
+        "Ballon d'Or",
+        "Ligue des Champions",
+        "Euro",
+        "Meilleur Buteur",
+        "The Best FIFA",
+        "Premier League",
+        "Serie A",
+        "Liga"
+      ]
+    },
+    {
+      "name": "Kylian Mbappé",
+      "img": "players/mbappe.jpg",
+      "achievements": [
+        "Coupe du Monde",
+        "Ligue 1",
+        "Meilleur Jeune",
+        "Meilleur Buteur"
+      ]
+    },
+    {
+      "name": "Neymar",
+      "img": "players/neymar.jpg",
+      "achievements": [
+        "Ligue des Champions",
+        "Copa América",
+        "Liga",
+        "Ligue 1"
+      ]
+    },
+    {
+      "name": "Luka Modric",
+      "img": "players/modric.jpg",
+      "achievements": [
+        "Ballon d'Or",
+        "Ligue des Champions",
+        "The Best FIFA"
+      ]
+    },
+    {
+      "name": "Manuel Neuer",
+      "img": "players/neuer.jpg",
+      "achievements": [
+        "Coupe du Monde",
+        "Ligue des Champions",
+        "Bundesliga",
+        "Trophée Yachine"
+      ]
+    },
+    {
+      "name": "Didier Drogba",
+      "img": "players/drogba.jpg",
+      "achievements": [
+        "Ligue des Champions",
+        "Premier League",
+        "CAN",
+        "Capitaine"
+      ]
+    },
+    {
+      "name": "Zinedine Zidane",
+      "img": "players/zidane.jpg",
+      "achievements": [
+        "Ballon d'Or",
+        "Coupe du Monde",
+        "Euro",
+        "Liga"
+      ]
+    },
+    {
+      "name": "Ronaldinho",
+      "img": "players/ronaldinho.jpg",
+      "achievements": [
+        "Ballon d'Or",
+        "Ligue des Champions",
+        "Copa América",
+        "Liga"
+      ]
+    },
+    {
+      "name": "Robert Lewandowski",
+      "img": "players/lewandowski.webp",
+      "achievements": [
+        "Bundesliga",
+        "The Best FIFA",
+        "Meilleur Buteur"
+      ]
+    },
+    {
+      "name": "Gianluigi Buffon",
+      "img": "players/buffon.jpeg",
+      "achievements": [
+        "Coupe du Monde",
+        "Serie A",
+        "Capitaine"
+      ]
+    },
+    {
+      "name": "Kaká",
+      "img": "players/kaka.jpg",
+      "achievements": [
+        "Ballon d'Or",
+        "Ligue des Champions",
+        "Serie A"
+      ]
+    },
+    {
+      "name": "Xavi",
+      "img": "players/xavi.webp",
+      "achievements": [
+        "Euro",
+        "Coupe du Monde",
+        "Ligue des Champions",
+        "Liga"
+      ]
+    },
+    {
+      "name": "Iniesta",
+      "img": "players/iniesta.jpg",
+      "achievements": [
+        "Coupe du Monde",
+        "Euro",
+        "Liga",
+        "Ligue des Champions"
+      ]
+    },
+    {
+      "name": "Pelé",
+      "img": "players/pele.jpg",
+      "achievements": [
+        "Coupe du Monde",
+        "Meilleur Buteur",
+        "Capitaine"
+      ]
+    }
+  ]
+}

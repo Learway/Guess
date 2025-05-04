@@ -189,7 +189,7 @@
       ]
     },
     {
-      "clue": "Quel joueur anglais est capitaine de Tottenham en 2025 ?",
+      "clue": "Quel joueur est capitaine de Tottenham en 2025 ?",
       "answers": [
         "Son Heung-Min",
         "Son"
@@ -272,7 +272,7 @@
     {
       "clue": "Quel club a remporté la Ligue des Champions en 2014 ?",
       "answers": [
-        "Real Madrid"
+        "Real Madrid","Real"
       ]
     },
     {
@@ -285,7 +285,7 @@
     {
       "clue": "Dans quel club joue Luka Modric en 2025 ?",
       "answers": [
-        "Real Madrid"
+        "Real Madrid","Real"
       ]
     },
     {
@@ -345,7 +345,7 @@
     {
       "clue": "Quel était le score de la finale de la Coupe du Monde 2006 entre la France et l’Italie ?",
       "answers": [
-        "1-1"
+        "1-1","1 1"
       ]
     },
     {
@@ -385,7 +385,7 @@
     {
       "clue": "Quel était le score de la finale de la LDC 2005 entre Liverpool et Milan ?",
       "answers": [
-        "3-3"
+        "3-3","3 3"
       ]
     },
     {
@@ -438,7 +438,7 @@
       "clue": "Quel club a battu la Juventus en finale de LDC 2015 ?",
       "answers": [
         "Barcelone",
-        "Fc Barcelone"
+        "Fc Barcelone", "Barca"
       ]
     },
     {

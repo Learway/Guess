@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bingo Foot</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-color: #f3f4f6;
+      padding: 2rem;
+    }
+    .bingo-board {
+      display: grid;
+      grid-template-columns: repeat(4, 100px);
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .cell {
+      background: white;
+      border-radius: 1rem;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .cell.correct {
+      background: #4ade80;
+      color: white;
+    }
+    .cell.wrong {
+      background: #f87171;
+      color: white;
+    }
+    .player-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .button {
+      background: #3b82f6;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .button:hover {
+      background: #2563eb;
+    }
+    h2 {
+      margin-bottom: 1rem;
+    }
+    .info {
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Bingo Foot</h2>
+  <div class="info" id="remaining"></div>
+  <div class="bingo-board" id="bingo-board"></div>
+<p id="end-message" style="display:none; font-weight:bold; color:#f87171; margin-bottom:1rem;">Fin du jeu : tu n'as pas rempli tout le bingo.</p>
+<img id="player-img" class="player-img" src="" alt="Joueur" />
+  <p id="player-name"></p>
+  <button class="button" id="next-button">Suivant</button>
+
+  <script>
+    let data;
+    let bingoCells = [];
+    let playerPool = [];
+    let currentPlayerIndex = 0;
+
+    async function init() {
+      const res = await fetch('data.json');
+      data = await res.json();
+
+      const shuffledCategories = [...data.categories].sort(() => 0.5 - Math.random());
+      const selectedCategories = shuffledCategories.slice(0, 16);
+
+      const board = document.getElementById('bingo-board');
+      board.innerHTML = '';
+      bingoCells = [];
+
+      selectedCategories.forEach(cat => {
+        const cell = document.createElement('div');
+        cell.className = 'cell';
+        cell.textContent = cat;
+        cell.dataset.category = cat;
+        cell.addEventListener('click', () => checkCategory(cell));
+        board.appendChild(cell);
+        bingoCells.push(cell);
+      });
+
+      playerPool = [...data.players].sort(() => 0.5 - Math.random()).slice(0, 30);
+      currentPlayerIndex = 0;
+      showPlayer();
+    }
+
+    function showPlayer() {
+      if (currentPlayerIndex >= playerPool.length) {
+        const correctCount = document.querySelectorAll('.cell.correct').length;
+        if (correctCount === 16) {
+          alert("Bravo ! Tu as rempli le Bingo !");
+        } else {
+          document.getElementById('end-message').style.display = 'block';
+        }
+        return;
+      }
+      const player = playerPool[currentPlayerIndex];
+      document.getElementById('player-img').src = player.img;
+      document.getElementById('player-name').textContent = player.name;
+      document.getElementById('remaining').textContent = `Joueurs restants : ${playerPool.length - currentPlayerIndex}`;
+    }
+
+    function checkCategory(cell) {
+      if (cell.classList.contains('correct')) return;
+
+      const player = playerPool[currentPlayerIndex];
+      const category = cell.dataset.category;
+
+      if (player.achievements.includes(category)) {
+        cell.classList.add('correct');
+        currentPlayerIndex++;
+        showPlayer();
+      } else {
+        cell.classList.add('wrong');
+        setTimeout(() => {
+          cell.classList.remove('wrong');
+          currentPlayerIndex++;
+          showPlayer();
+        }, 500);
+      }
+    }
+
+    document.getElementById('next-button').addEventListener('click', () => {
+      currentPlayerIndex++;
+      showPlayer();
+    });
+
+    init();
+  </script>
+
+</body>
+</html>
