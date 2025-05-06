@@ -331,6 +331,44 @@
       ]
     },
     {
+      "name": "Álvaro Negredo",
+      "img": "players/.jpg",
+      "achievements": [
+        "Euro",
+        "Premier League",
+        "Sevilla"
+      ]
+    },
+    {
+      "name": "Franck Ribéry",
+      "img": "players/.jpg",
+      "achievements": [
+        "Bayern"
+      ]
+    },
+    {
+      "name": "Philipp Lahm",
+      "img": "players/.jpg",
+      "achievements": [
+        "Bayern",
+        "Ligue des Champions",
+        "Coupe du Monde",
+        "Bundesliga"
+      ]
+    },
+    {
+      "name": "Jérôme Boateng",
+      "img": "players/.jpg",
+      "achievements": [
+        "Bayern",
+        "Ligue des Champions",
+        "Coupe du Monde",
+        "Bundesliga",
+        "Lyon"
+      
+      ]
+    },
+    {
       "name": "Esteban Cambiasso",
       "img": "players/esteban_cambiasso.jpg",
       "achievements": [
@@ -497,14 +535,6 @@
       ]
     },
     {
-      "name": "Rafinha",
-      "img": "players/rafinha.jpg",
-      "achievements": [
-        "Bundesliga",
-        "Bayern"
-      ]
-    },
-    {
       "name": "Alexandre Song",
       "img": "players/alexandre_song.jpg",
       "achievements": [
@@ -534,7 +564,9 @@
       "img": "players/luiz_gustavo.jpg",
       "achievements": [
         "Bundesliga",
-        "Copa América"
+        "Copa América",
+        "Ligue des Champions",
+        "Bayern"
       ]
     },
     {
@@ -695,6 +727,9 @@
       "achievements": [
         "Ballon d'Or",
         "AC Milan",
+        "PSG",
+        "Monaco",
+        "Chelsea",
         "Ligue 1",
         "Serie A"
       ]
