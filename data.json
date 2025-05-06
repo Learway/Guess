@@ -302,6 +302,35 @@
       ]
     },
     {
+      "name": "Yoann Gourcuff",
+      "img": "players/.jpg",
+      "achievements": [
+        "AC Milan",
+        "Ligue des Champions",
+        "Ligue 1",
+        "Lyon"
+      ]
+    },
+    {
+      "name": "Paulo Dybala",
+      "img": "players/.jpg",
+      "achievements": [
+        "Coupe du Monde",
+        "Serie A",
+        "Juventus"
+      ]
+    },
+    {
+      "name": "Ben Arfa",
+      "img": "players/.jpg",
+      "achievements": [
+        "Ligue 1",
+        "PSG",
+        "LOSC",
+        "Lyon"
+      ]
+    },
+    {
       "name": "Esteban Cambiasso",
       "img": "players/esteban_cambiasso.jpg",
       "achievements": [
