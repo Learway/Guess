@@ -1,148 +1,629 @@
 {
   "categories": [
-    "Ballon d'Or",
     "Ligue des Champions",
     "Coupe du Monde",
-    "Soulier d'Or",
-    "Copa América",
     "Euro",
+    "Copa América",
     "CAN",
     "Premier League",
     "Liga",
     "Serie A",
     "Bundesliga",
-    "Ligue 1",
-    "Meilleur Buteur",
-    "Trophée Yachine",
-    "Liverpool",
-    "Arsenal",
+    "Juventus",
     "PSG",
     "Chelsea",
-    "Manchester City",
-    "Real Madrid",
     "Barcelone",
-    "Manchester United",
-    "Bayern",
-    "Dortmund",
-    "Inter Milan",
+    "Real Madrid",
     "AC Milan",
+    "Manchester United",
+    "Liverpool",
+    "Arsenal",
+    "Bayern",
+    "Inter Milan",
+    "Ballon d'Or",
+    "Europa League",
+    "Atletico Madrid",
+    "Napoli",
+    "Tottenham",
     "Sporting CP",
     "Porto FC",
-    "Napoli",
-    "Juventus"
+    "Sevilla"
   ],
   "players": [
     {
-      "name": "Lionel Messi",
-      "img": "players/messi.jpg",
+      "name": "Roberto Carlos",
+      "img": "players/.jpg",
       "achievements": [
-        "Ballon d'Or",
+        "Copa América",
+        "Ligue des Champions",
+        "Inter Milan",
+        "Real Madrid",
+        "Coupe du Monde"
+      ]
+    },
+    {
+      "name": "Ciro Immobile",
+      "img": "players/.jpg",
+      "achievements": [
+        "Europa League",
+        "Juventus",
+        "Sevilla",
+        "Dortmund"
+      ]
+    },
+    {
+      "name": "Iniesta",
+      "img": "players/.jpg",
+      "achievements": [
+        "Europa League",
         "Ligue des Champions",
         "Coupe du Monde",
-        "Copa América",
-        "Meilleur Buteur",
-        "The Best FIFA"
-      ]
-    },
-    {
-      "name": "Cristiano Ronaldo",
-      "img": "players/ronaldo.webp",
-      "achievements": [
-        "Ballon d'Or",
-        "Ligue des Champions",
-        "Euro",
-        "Meilleur Buteur",
-        "The Best FIFA",
-        "Premier League",
-        "Serie A",
-        "Liga"
-      ]
-    },
-    {
-      "name": "Kylian Mbappé",
-      "img": "players/mbappe.jpg",
-      "achievements": [
-        "Coupe du Monde",
-        "Ligue 1",
-        "Meilleur Jeune",
-        "Meilleur Buteur"
-      ]
-    },
-    {
-      "name": "Neymar",
-      "img": "players/neymar.jpg",
-      "achievements": [
-        "Ligue des Champions",
-        "Copa América",
         "Liga",
+        "Barcelone"
+      ]
+    },
+    {
+      "name": "Fernando Llorente",
+      "img": "players/fernando_llorente.jpg",
+      "achievements": [
+        "Euro",
+        "Juventus",
+        "Napoli",
+        "Tottenham",
+        "Coupe du Monde",
+        "Europa League",
+        "Serie A"
+      ]
+    },
+    {
+      "name": "Mike Maignan",
+      "img": "players/.jpg",
+      "achievements": [
+        "PSG",
+        "AC Milan",
+        "Serie A"
+      ]
+    },
+    {
+      "name": "Thiago Silva",
+      "img": "players/.jpg",
+      "achievements": [
+        "PSG",
+        "Chelsea",
+        "Ligue des Champions",
+        "Copa América",
+        "Serie A",
+        "AC Milan",
+        "Porto",
         "Ligue 1"
       ]
     },
     {
-      "name": "Luka Modric",
-      "img": "players/modric.jpg",
+      "name": "Zlatan Ibrahimović",
+      "img": "players/.jpg",
       "achievements": [
-        "Ballon d'Or",
-        "Ligue des Champions",
-        "The Best FIFA"
+        "PSG",
+        "Barcelone",
+        "Ligue 1",
+        "Liga",
+        "Serie A",
+        "AC Milan",
+        "Inter Milan",
+        "Ligue 1"
       ]
     },
     {
-      "name": "Manuel Neuer",
-      "img": "players/neuer.jpg",
+      "name": "Antoine Griezmann",
+      "img": "players/.jpg",
+      "achievements": [
+        "Coupe du Monde",
+        "Europa League",
+        "Barcelone",
+        "Atletico Madrid"
+      ]
+    },
+    {
+      "name": "Diego Costa",
+      "img": "players/.jpg",
+      "achievements": [
+        "Premier League",
+        "Europa League",
+        "Chelsea",
+        "Atletico Madrid"
+      ]
+    },
+    {
+      "name": "Edinson Cavani",
+      "img": "players/.jpg",
+      "achievements": [
+        "Copa América",
+        "Ligue 1",
+        "PSG",
+        "Napoli",
+        "Manchester United"
+      ]
+    },
+    {
+      "name": "Diego Forlán",
+      "img": "players/.jpg",
+      "achievements": [
+        "Copa América",
+        "Premier League",
+        "Europa League",
+        "Atletico Madrid",
+        "Manchester United",
+        "Inter Milan"
+      ]
+    },
+    {
+      "name": "Luis Suárez",
+      "img": "players/.jpg",
+      "achievements": [
+        "Copa América",
+        "Ligue des Champions",
+        "Barcelone",
+        "Atletico Madrid",
+        "Liverpool"
+      ]
+    },
+    {
+      "name": "N'Golo Kanté",
+      "img": "players/.jpg",
       "achievements": [
         "Coupe du Monde",
         "Ligue des Champions",
-        "Bundesliga",
-        "Trophée Yachine"
+        "Chelsea",
+        "Premier League"
       ]
     },
     {
-      "name": "Didier Drogba",
-      "img": "players/drogba.jpg",
+      "name": "Guti",
+      "img": "players/.jpg",
       "achievements": [
+        "Real Madrid",
         "Ligue des Champions",
-        "Premier League",
-        "CAN",
-        "Capitaine"
+        "Liga"
       ]
     },
     {
-      "name": "Zinedine Zidane",
-      "img": "players/zidane.jpg",
+      "name": "Blaise Matuidi",
+      "img": "players/.jpg",
       "achievements": [
-        "Ballon d'Or",
+        "PSG",
+        "Serie A",
+        "Juventus",
+        "Coupe du Monde",
+        "Ligue 1"
+      ]
+    },
+    {
+      "name": "Thierry Henry",
+      "img": "players/.jpg",
+      "achievements": [
         "Coupe du Monde",
         "Euro",
-        "Liga"
-      ]
-    },
-    {
-      "name": "Ronaldinho",
-      "img": "players/ronaldinho.jpg",
-      "achievements": [
-        "Ballon d'Or",
         "Ligue des Champions",
-        "Copa América",
-        "Liga"
+        "Premier League",
+        "Liga",
+        "Ligue 1",
+        "Monaco",
+        "Juventus",
+        "Barcelone",
+        "Arsenal"
       ]
     },
     {
-      "name": "Robert Lewandowski",
-      "img": "players/lewandowski.webp",
-      "achievements": [
-        "Bundesliga",
-        "The Best FIFA",
-        "Meilleur Buteur"
-      ]
-    },
-    {
-      "name": "Gianluigi Buffon",
-      "img": "players/buffon.jpeg",
+      "name": "Paul Pogba",
+      "img": "players/.jpg",
       "achievements": [
         "Coupe du Monde",
         "Serie A",
-        "Capitaine"
+        "Juventus",
+        "Europa League",
+        "Manchester United"
+      ]
+    },
+    {
+      "name": "Luís Figo",
+      "img": "players/.jpg",
+      "achievements": [
+        "Serie A",
+        "Ballon d'Or",
+        "Ligue des Champions",
+        "Liga",
+        "Sporting CP",
+        "Inter Milan",
+        "Barcelone",
+        "Real Madrid"
+      ]
+    },
+    {
+      "name": "Pepe",
+      "img": "players/.jpg",
+      "achievements": [
+        "Ligue des Champions",
+        "Liga",
+        "Euro",
+        "Porto",
+        "Real Madrid"
+      ]
+    },
+    {
+      "name": "Toni Kroos",
+      "img": "players/.jpg",
+      "achievements": [
+        "Ligue des Champions",
+        "Coupe du Monde",
+        "Bayern",
+        "Real Madrid",
+        "Bundesliga",
+        "Liga"
+      ]
+    },
+    {
+      "name": "Toni Kroos",
+      "img": "players/.jpg",
+      "achievements": [
+        "Euro",
+        "Europa League",
+        "Ligue 1",
+        "Porto",
+        "Sporting CP",
+        "Monaco"
+      ]
+    },
+    {
+      "name": "Killian Mbappé",
+      "img": "players/.jpg",
+      "achievements": [
+        "Coupe du Monde",
+        "PSG",
+        "Real Madrid",
+        "Ligue 1",
+        "Monaco"
+      ]
+    },
+    {
+      "name": "Massimo Ambrosini",
+      "img": "players/.jpg",
+      "achievements": [
+        "Serie A",
+        "AC Milan",
+        "Ligue des Champions"
+      ]
+    },
+    {
+      "name": "Paolo Maldini",
+      "img": "players/.jpg",
+      "achievements": [
+        "Serie A",
+        "AC Milan",
+        "Ligue des Champions"
+      ]
+    },
+    {
+      "name": "Esteban Cambiasso",
+      "img": "players/esteban_cambiasso.jpg",
+      "achievements": [
+        "Copa América",
+        "Ligue des Champions",
+        "Inter Milan"
+      ]
+    },
+    {
+      "name": "Roque Santa Cruz",
+      "img": "players/roque_santa_cruz.jpg",
+      "achievements": [
+        "Bundesliga",
+        "Copa América"
+      ]
+    },
+    {
+      "name": "Andrés Palop",
+      "img": "players/andrés_palop.jpg",
+      "achievements": [
+        "Euro",
+        "Sevilla",
+        "Europa League"
+      ]
+    },
+    {
+      "name": "Ricardo Quaresma",
+      "img": "players/ricardo_quaresma.jpg",
+      "achievements": [
+        "Euro",
+        "Porto",
+        "Ligue des Champions",
+        "Inter Milan",
+        "Barcelone",
+        "Chelsea",
+        "Euro",
+        "Serie A",
+        "Sporting CP"
+      ]
+
+    },
+    {
+      "name": "John Obi Mikel",
+      "img": "players/john_obi_mikel.jpg",
+      "achievements": [
+        "Chelsea",
+        "CAN",
+        "Ligue des Champions"
+      ]
+    },
+    {
+      "name": "Kevin Kuranyi",
+      "img": "players/kevin_kuranyi.jpg",
+      "achievements": [
+        "Bundesliga",
+        "Schalke"
+      ]
+    },
+    {
+      "name": "Julio Baptista",
+      "img": "players/julio_baptista.jpg",
+      "achievements": [
+        "Liga",
+        "Copa América",
+        "Real Madrid"
+      ]
+    },
+    {
+      "name": "Diego Forlán",
+      "img": "players/diego_forlán.jpg",
+      "achievements": [
+        "Copa América",
+        "Atletico Madrid"
+      ]
+    },
+    {
+      "name": "Mahamadou Diarra",
+      "img": "players/mahamadou_diarra.jpg",
+      "achievements": [
+        "Real Madrid",
+        "CAN"
+      ]
+    },
+    {
+      "name": "Jérémy Ménez",
+      "img": "players/jérémy_ménez.jpg",
+      "achievements": [
+        "Ligue 1",
+        "PSG"
+      ]
+    },
+    {
+      "name": "Salvatore Sirigu",
+      "img": "players/salvatore_sirigu.jpg",
+      "achievements": [
+        "Serie A",
+        "PSG",
+        "Euro"
+      ]
+    },
+    {
+      "name": "Yossi Benayoun",
+      "img": "players/yossi_benayoun.jpg",
+      "achievements": [
+        "Premier League",
+        "Liverpool"
+      ]
+    },
+    {
+      "name": "Ludovic Giuly",
+      "img": "players/ludovic_giuly.jpg",
+      "achievements": [
+        "Barcelone",
+        "Ligue des Champions"
+      ]
+    },
+    {
+      "name": "Eduardo Camavinga",
+      "img": "players/eduardo_camavinga.jpg",
+      "achievements": [
+        "Real Madrid",
+        "Ligue des Champions",
+        "Liga"
+      ]
+    },
+    {
+      "name": "Fredy Guarín",
+      "img": "players/fredy_guarín.jpg",
+      "achievements": [
+        "Inter Milan",
+        "Copa América"
+      ]
+    },
+    {
+      "name": "Kwadwo Asamoah",
+      "img": "players/kwadwo_asamoah.jpg",
+      "achievements": [
+        "Serie A",
+        "Juventus"
+      ]
+    },
+    {
+      "name": "Antonio Valencia",
+      "img": "players/antonio_valencia.jpg",
+      "achievements": [
+        "Manchester United",
+        "Copa América"
+      ]
+    },
+    {
+      "name": "Marko Marin",
+      "img": "players/marko_marin.jpg",
+      "achievements": [
+        "Bundesliga",
+        "Chelsea"
+      ]
+    },
+    {
+      "name": "Álvaro Arbeloa",
+      "img": "players/álvaro_arbeloa.jpg",
+      "achievements": [
+        "Real Madrid",
+        "Coupe du Monde"
+      ]
+    },
+    {
+      "name": "Rafinha",
+      "img": "players/rafinha.jpg",
+      "achievements": [
+        "Bundesliga",
+        "Bayern"
+      ]
+    },
+    {
+      "name": "Alexandre Song",
+      "img": "players/alexandre_song.jpg",
+      "achievements": [
+        "CAN",
+        "Barcelone"
+      ]
+    },
+    {
+      "name": "Sidney Govou",
+      "img": "players/sidney_govou.jpg",
+      "achievements": [
+        "Ligue 1",
+        "Euro"
+      ]
+    },
+    {
+      "name": "Jesé Rodríguez",
+      "img": "players/jesé_rodríguez.jpg",
+      "achievements": [
+        "Real Madrid",
+        "Ligue des Champions",
+        "Europa League"
+      ]
+    },
+    {
+      "name": "Luiz Gustavo",
+      "img": "players/luiz_gustavo.jpg",
+      "achievements": [
+        "Bundesliga",
+        "Copa América"
+      ]
+    },
+    {
+      "name": "Bacary Sagna",
+      "img": "players/bacary_sagna.jpg",
+      "achievements": [
+        "Premier League",
+        "Arsenal"
+      ]
+    },
+    {
+      "name": "Mathieu Flamini",
+      "img": "players/mathieu_flamini.jpg",
+      "achievements": [
+        "Premier League",
+        "Arsenal"
+      ]
+    },
+    {
+      "name": "Salomon Kalou",
+      "img": "players/salomon_kalou.jpg",
+      "achievements": [
+        "CAN",
+        "Chelsea"
+      ]
+    },
+    {
+      "name": "Klaas-Jan Huntelaar",
+      "img": "players/klaas-jan_huntelaar.jpg",
+      "achievements": [
+        "Bundesliga",
+        "Schalke"
+      ]
+    },
+    {
+      "name": "Nani",
+      "img": "players/nani.jpg",
+      "achievements": [
+        "Euro",
+        "Manchester United",
+        "Ligue des Champions",
+        "Premier League",
+        "Sporting CP"
+      ]
+    },
+    {
+      "name": "Dimitri Payet",
+      "img": "players/dimitri_payet.jpg",
+      "achievements": [
+        "Ligue 1",
+        "Euro"
+      ]
+    },
+    {
+      "name": "Adil Rami",
+      "img": "players/adil_rami.jpg",
+      "achievements": [
+        "Coupe du Monde",
+        "Sevilla",
+        "Europa League",
+        "AC Milan",
+        "Ligue 1"
+      ]
+    },
+
+    {
+      "name": "Stephan Lichtsteiner",
+      "img": "players/stephan_lichtsteiner.jpg",
+      "achievements": [
+        "Serie A",
+        "Juventus"
+      ]
+    },
+    {
+      "name": "Andrey Arshavin",
+      "img": "players/andrey_arshavin.jpg",
+      "achievements": [
+        "Euro",
+        "Arsenal"
+      ]
+    },
+    {
+      "name": "Lucas Leiva",
+      "img": "players/lucas_leiva.jpg",
+      "achievements": [
+        "Liverpool",
+        "Copa América"
+      ]
+    },
+    {
+      "name": "Ramires",
+      "img": "players/ramires.jpg",
+      "achievements": [
+        "Chelsea",
+        "Copa América",
+        "Europa League",
+        "Ligue des Champions",
+        "Premier League",
+        "Chelsea"
+      ]
+    },
+    {
+      "name": "Wes Brown",
+      "img": "players/wes_brown.jpg",
+      "achievements": [
+        "Premier League",
+        "Manchester United",
+        "Ligue des Champions",
+        "Premier League"
+      ]
+    },
+    {
+      "name": "Maxwell",
+      "img": "players/maxwell.jpg",
+      "achievements": [
+        "Ligue 1",
+        "Barcelone",
+        "PSG"
       ]
     },
     {
@@ -151,36 +632,102 @@
       "achievements": [
         "Ballon d'Or",
         "Ligue des Champions",
+        "AC Milan",
+        "Coupe du Monde",
+        "Real Madrid"
+      ]
+    },
+    {
+      "name": "Ronaldinho",
+      "img": "players/ronaldinho.jpg",
+      "achievements": [
+        "Ballon d'Or",
+        "Liga",
+        "Copa América",
+        "Barcelone",
+        "Ligue des Champions",
+        "PSG"
+      ]
+    },
+    {
+      "name": "Fabio Cannavaro",
+      "img": "players/cannavaro.jpg",
+      "achievements": [
+        "Ballon d'Or",
+        "Coupe du Monde",
+        "Real Madrid"
+      ]
+    },
+    {
+      "name": "George Weah",
+      "img": "players/weah.jpg",
+      "achievements": [
+        "Ballon d'Or",
+        "AC Milan",
+        "Ligue 1",
         "Serie A"
       ]
     },
     {
-      "name": "Xavi",
-      "img": "players/xavi.webp",
+      "name": "Andriy Shevchenko",
+      "img": "players/shevchenko.jpg",
       "achievements": [
-        "Euro",
-        "Coupe du Monde",
+        "Ballon d'Or",
         "Ligue des Champions",
-        "Liga"
+        "AC Milan"
       ]
     },
     {
-      "name": "Iniesta",
-      "img": "players/iniesta.jpg",
+      "name": "Olivier Giroud",
+      "img": "players/giroud.jpg",
       "achievements": [
+        "Europa League",
+        "AC Milan",
         "Coupe du Monde",
-        "Euro",
-        "Liga",
+        "Chelsea",
+        "Arsenal",
         "Ligue des Champions"
       ]
     },
     {
-      "name": "Pelé",
-      "img": "players/pele.jpg",
+      "name": "Fernando Torres",
+      "img": "players/fernando_torres.jpg",
       "achievements": [
         "Coupe du Monde",
-        "Meilleur Buteur",
-        "Capitaine"
+        "Euro",
+        "Europa League",
+        "Atletico Madrid",
+        "Chelsea",
+        "Liverpool",
+        "Ligue des Champions"
+      ]
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "img": "players/cristiano_ronaldo.jpg",
+      "achievements": [
+        "Liga",
+        "Ballon d'Or",
+        "Real Madrid",
+        "Ligue des Champions",
+        "Euro",
+        "Juventus",
+        "Sporting CP",
+        "Manchester United",
+        "Serie A",
+        "Premier League"
+      ]
+    },
+    {
+      "name": "Lionel Messi",
+      "img": "players/lionel_messi.jpg",
+      "achievements": [
+        "Liga",
+        "Ballon d'Or",
+        "Barcelone",
+        "Ligue des Champions",
+        "Coupe du Monde",
+        "PSG"
       ]
     }
   ]
