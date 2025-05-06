@@ -369,6 +369,17 @@
       ]
     },
     {
+      "name": "Christian Eriksen",
+      "img": "players/.jpg",
+      "achievements": [
+        "Inter Milan",
+        "Manchester United",
+        "Tottenham",
+        "Serie A"
+      
+      ]
+    },
+    {
       "name": "Esteban Cambiasso",
       "img": "players/esteban_cambiasso.jpg",
       "achievements": [
